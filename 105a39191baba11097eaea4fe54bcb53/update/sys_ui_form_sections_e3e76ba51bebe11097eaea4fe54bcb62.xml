@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e3e76ba51bebe11097eaea4fe54bcb62" sys_domain="global" table="x_lbsa_gop_tarea_gop" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-20 20:29:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7e76ba51bebe11097eaea4fe54bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lbsa_gop_tarea_gop" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">e3e76ba51bebe11097eaea4fe54bcb62</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">37e76ba51bebe11097eaea4fe54bcb64</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-20 20:29:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-20 20:32:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2a8a3e51bebe11097eaea4fe54bcb26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lbsa_gop_tarea_gop" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">e3e76ba51bebe11097eaea4fe54bcb62</sys_ui_form>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">42a8a3e51bebe11097eaea4fe54bcb24</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-20 20:32:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-17 20:14:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b267e2921b04315097eaea4fe54bcb84</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lbsa_gop_tarea_gop" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">e3e76ba51bebe11097eaea4fe54bcb62</sys_ui_form>
+            <sys_ui_section caption="Análisis" display_value="Análisis" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">2667e2921b04315097eaea4fe54bcb80</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-17 20:14:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-20 20:32:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cea8a3e51bebe11097eaea4fe54bcbb2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lbsa_gop_tarea_gop" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">e3e76ba51bebe11097eaea4fe54bcb62</sys_ui_form>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_lbsa_gop_tarea_gop" sys_domain="global" view="Default view">caa8a3e51bebe11097eaea4fe54bcb24</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-17 20:14:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_lbsa_gop_tarea_gop</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-20 20:29:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3e76ba51bebe11097eaea4fe54bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_lbsa_gop_tarea_gop</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e3e76ba51bebe11097eaea4fe54bcb62</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-20 20:29:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

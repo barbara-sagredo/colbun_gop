@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["5b9495fd1be4b51097eaea4fe54bcbad"],"stages":{},"subflows":[],"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Legacy">007c2f021b020100adca1e094f0713b4</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description>The default workflow associated with each newly created SLA</description>
+        <expected_sequences>979495fd1be4b51097eaea4fe54bcbaa,9b9495fd1be4b51097eaea4fe54bcba6,5b9415fd1be4b51097eaea4fe54bcb67,139495fd1be4b51097eaea4fe54bcbab,5b9495fd1be4b51097eaea4fe54bcbad</expected_sequences>
+        <expected_time>1970-01-03 00:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>979495fd1be4b51097eaea4fe54bcbaa,9b9495fd1be4b51097eaea4fe54bcba6,5b9415fd1be4b51097eaea4fe54bcb67,1f9415fd1be4b51097eaea4fe54bcb65,139495fd1be4b51097eaea4fe54bcbab,1f9495fd1be4b51097eaea4fe54bcbae,139495fd1be4b51097eaea4fe54bcbae,5b9495fd1be4b51097eaea4fe54bcbad,179495fd1be4b51097eaea4fe54bcba9</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>SLX SLA - Flujo Notificaciones GOP</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">979495fd1be4b51097eaea4fe54bcbaa</start>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>c79415fd1be4b51097eaea4fe54bcb63</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:37:42</sys_updated_on>
+        <table>task_sla</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="SLX SLA - Flujo Notificaciones GOP">8b9415fd1be4b51097eaea4fe54bcb62</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>The default workflow associated with each newly created SLA</description>
+        <name>SLX SLA - Flujo Notificaciones GOP</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b9415fd1be4b51097eaea4fe54bcb62</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SLX SLA - Flujo Notificaciones GOP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>wf_workflow_8b9415fd1be4b51097eaea4fe54bcb62</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:37:42</sys_updated_on>
+        <table>task_sla</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>979495fd1be4b51097eaea4fe54bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=979495fd1be4b51097eaea4fe54bcbaa"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">979495fd1be4b51097eaea4fe54bcbaa</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9495fd1be4b51097eaea4fe54bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9495fd1be4b51097eaea4fe54bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>1386</x>
+        <y>879</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5b9495fd1be4b51097eaea4fe54bcbad"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="SLA Percentage Timer">8e291a23ac1464262f4366bb3182d840</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Espera 100% de SLA</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9415fd1be4b51097eaea4fe54bcb67</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:29:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>416</x>
+        <y>87</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5b9415fd1be4b51097eaea4fe54bcb67"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>139415fd1be4b51097eaea4fe54bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer field">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule type">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="User Specified Timezone">60eadd8b73270010491d235f04f6a76a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>979415fd1be4b51097eaea4fe54bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9b9415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:28:19</sys_updated_on>
+        <value>100</value>
+        <variable display_value="Percentage">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9415fd1be4b51097eaea4fe54bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Relative duration">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39415fd1be4b51097eaea4fe54bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer type">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d79415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Modifier">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone type">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>139415fd1be4b51097eaea4fe54bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d79415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Modifier">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39415fd1be4b51097eaea4fe54bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer type">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9415fd1be4b51097eaea4fe54bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Relative duration">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone type">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>979415fd1be4b51097eaea4fe54bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule type">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer field">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9b9415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:28:19</sys_updated_on>
+        <value>100</value>
+        <variable display_value="Percentage">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b9415fd1be4b51097eaea4fe54bcb67</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9415fd1be4b51097eaea4fe54bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="User Specified Timezone">60eadd8b73270010491d235f04f6a76a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Espera 100% de SLA">5b9415fd1be4b51097eaea4fe54bcb67</activity>
+        <condition>activity.result != 'repair'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Normal</name>
+        <order>200</order>
+        <short_description>The SLA is running normally (not being repaired)</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39495fd1be4b51097eaea4fe54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Espera 100% de SLA">5b9415fd1be4b51097eaea4fe54bcb67</activity>
+        <condition>activity.result == 'repair'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Repair</name>
+        <order>100</order>
+        <short_description>The SLA is being repaired</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="SLA Percentage Timer">8e291a23ac1464262f4366bb3182d840</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Espera 200% de SLA</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>139495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:29:08</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>718</x>
+        <y>123</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=139495fd1be4b51097eaea4fe54bcbab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1b9495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer field">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="User Specified Timezone">60eadd8b73270010491d235f04f6a76a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>579495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule type">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone type">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>939495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Relative duration">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9b9495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:29:08</sys_updated_on>
+        <value>200</value>
+        <variable display_value="Percentage">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d79495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer type">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Modifier">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d79495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer type">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9b9495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>939495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Relative duration">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone type">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>579495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule type">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1b9495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer field">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Modifier">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9495fd1be4b51097eaea4fe54bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:29:08</sys_updated_on>
+        <value>200</value>
+        <variable display_value="Percentage">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>139495fd1be4b51097eaea4fe54bcbab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="User Specified Timezone">60eadd8b73270010491d235f04f6a76a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Espera 200% de SLA">139495fd1be4b51097eaea4fe54bcbab</activity>
+        <condition>activity.result != 'repair'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Normal</name>
+        <order>200</order>
+        <short_description>The SLA is running normally (not being repaired)</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39495fd1be4b51097eaea4fe54bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Espera 200% de SLA">139495fd1be4b51097eaea4fe54bcbab</activity>
+        <condition>activity.result == 'repair'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Repair</name>
+        <order>100</order>
+        <short_description>The SLA is being repaired</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="SLA Percentage Timer">8e291a23ac1464262f4366bb3182d840</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Espera 50% de SLA</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9b9495fd1be4b51097eaea4fe54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>82</x>
+        <y>110</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9b9495fd1be4b51097eaea4fe54bcba6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1b9495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>50</value>
+        <variable display_value="Percentage">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1f9495fd1be4b51097eaea4fe54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Relative duration">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer type">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>579495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Modifier">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>939495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer field">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d79495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone type">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="User Specified Timezone">60eadd8b73270010491d235f04f6a76a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>df9495fd1be4b51097eaea4fe54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule type">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d79495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone type">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>939495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer field">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>579495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Modifier">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer type">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1f9495fd1be4b51097eaea4fe54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Relative duration">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>df9495fd1be4b51097eaea4fe54bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule type">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1b9495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>50</value>
+        <variable display_value="Percentage">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9b9495fd1be4b51097eaea4fe54bcba6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value/>
+        <variable display_value="User Specified Timezone">60eadd8b73270010491d235f04f6a76a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Espera 50% de SLA">9b9495fd1be4b51097eaea4fe54bcba6</activity>
+        <condition>activity.result != 'repair'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Normal</name>
+        <order>200</order>
+        <short_description>The SLA is running normally (not being repaired)</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Espera 50% de SLA">9b9495fd1be4b51097eaea4fe54bcba6</activity>
+        <condition>activity.result == 'repair'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Repair</name>
+        <order>100</order>
+        <short_description>The SLA is being repaired</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notificación 100% Asignado, Selección</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1f9495fd1be4b51097eaea4fe54bcbae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:20</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>528</x>
+        <y>273</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1f9495fd1be4b51097eaea4fe54bcbae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9495fd1be4b51097eaea4fe54bcbae</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 2">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9495fd1be4b51097eaea4fe54bcbae</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 1">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9495fd1be4b51097eaea4fe54bcbae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9495fd1be4b51097eaea4fe54bcbae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:21</sys_updated_on>
+        <value>69b6dd311b28b51097eaea4fe54bcb8e</value>
+        <variable display_value="Event name">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9495fd1be4b51097eaea4fe54bcbae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9f9495fd1be4b51097eaea4fe54bcbae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:21</sys_updated_on>
+        <value>69b6dd311b28b51097eaea4fe54bcb8e</value>
+        <variable display_value="Event name">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9495fd1be4b51097eaea4fe54bcbae</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 1">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9495fd1be4b51097eaea4fe54bcbae</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 2">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notificación 100% Asignado, Selección">1f9495fd1be4b51097eaea4fe54bcbae</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1b9495fd1be4b51097eaea4fe54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notificación 200%  Subgerente desarrollo personas</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcba9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:37:09</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>997</x>
+        <y>366</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=179495fd1be4b51097eaea4fe54bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>179495fd1be4b51097eaea4fe54bcba9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1f9495fd1be4b51097eaea4fe54bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 2">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>179495fd1be4b51097eaea4fe54bcba9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9495fd1be4b51097eaea4fe54bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 1">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>179495fd1be4b51097eaea4fe54bcba9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>979495fd1be4b51097eaea4fe54bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:57</sys_updated_on>
+        <value>41d691711b28b51097eaea4fe54bcb3e</value>
+        <variable display_value="Event name">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>179495fd1be4b51097eaea4fe54bcba9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>979495fd1be4b51097eaea4fe54bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:57</sys_updated_on>
+        <value>41d691711b28b51097eaea4fe54bcb3e</value>
+        <variable display_value="Event name">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>179495fd1be4b51097eaea4fe54bcba9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9495fd1be4b51097eaea4fe54bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 1">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>179495fd1be4b51097eaea4fe54bcba9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1f9495fd1be4b51097eaea4fe54bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 2">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notificación 200%  Subgerente desarrollo personas">179495fd1be4b51097eaea4fe54bcba9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>139495fd1be4b51097eaea4fe54bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notificación 50% Asignado</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1f9415fd1be4b51097eaea4fe54bcb65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:01</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>171</x>
+        <y>493</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1f9415fd1be4b51097eaea4fe54bcb65"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9415fd1be4b51097eaea4fe54bcb65</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9415fd1be4b51097eaea4fe54bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 2">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9415fd1be4b51097eaea4fe54bcb65</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>979415fd1be4b51097eaea4fe54bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 1">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9415fd1be4b51097eaea4fe54bcb65</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39415fd1be4b51097eaea4fe54bcb66</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:01</sys_updated_on>
+        <value>d7869d311b28b51097eaea4fe54bcb39</value>
+        <variable display_value="Event name">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9415fd1be4b51097eaea4fe54bcb65</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39415fd1be4b51097eaea4fe54bcb66</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:36:01</sys_updated_on>
+        <value>d7869d311b28b51097eaea4fe54bcb39</value>
+        <variable display_value="Event name">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9415fd1be4b51097eaea4fe54bcb65</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>979415fd1be4b51097eaea4fe54bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 1">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1f9415fd1be4b51097eaea4fe54bcb65</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9415fd1be4b51097eaea4fe54bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="Parameter 2">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notificación 50% Asignado">1f9415fd1be4b51097eaea4fe54bcb65</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>df9415fd1be4b51097eaea4fe54bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Join">7c9a2ba9c0a801650021ada408de0ebd</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Wait for all activities to complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>139495fd1be4b51097eaea4fe54bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+        <x>677</x>
+        <y>671</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=139495fd1be4b51097eaea4fe54bcbae"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</activity>
+        <condition>activity.result == 'complete'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Complete</name>
+        <order>1</order>
+        <short_description>All predecessor activities have transitioned to this activity</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>579495fd1be4b51097eaea4fe54bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</activity>
+        <condition>activity.result == 'incomplete'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Incomplete</name>
+        <order>2</order>
+        <short_description>At least one predecessor activities did not transition to this activity</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39495fd1be4b51097eaea4fe54bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">d39495fd1be4b51097eaea4fe54bcbad</condition>
+        <from display_value="Espera 200% de SLA">139495fd1be4b51097eaea4fe54bcbab</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>139495fd1be4b51097eaea4fe54bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Notificación 200%  Subgerente desarrollo personas">179495fd1be4b51097eaea4fe54bcba9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">d39495fd1be4b51097eaea4fe54bcbad</condition>
+        <from display_value="Espera 200% de SLA">139495fd1be4b51097eaea4fe54bcbab</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>179495fd1be4b51097eaea4fe54bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Complete">579495fd1be4b51097eaea4fe54bcbae</condition>
+        <from display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>1b9495fd1be4b51097eaea4fe54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="End">5b9495fd1be4b51097eaea4fe54bcbad</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Repair">db9495fd1be4b51097eaea4fe54bcba8</condition>
+        <from display_value="Espera 50% de SLA">9b9495fd1be4b51097eaea4fe54bcba6</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>539495fd1be4b51097eaea4fe54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Espera 100% de SLA">5b9415fd1be4b51097eaea4fe54bcb67</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">5f9495fd1be4b51097eaea4fe54bcba8</condition>
+        <from display_value="Espera 50% de SLA">9b9495fd1be4b51097eaea4fe54bcba6</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>579495fd1be4b51097eaea4fe54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Espera 100% de SLA">5b9415fd1be4b51097eaea4fe54bcb67</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">d39495fd1be4b51097eaea4fe54bcba6</condition>
+        <from display_value="Espera 100% de SLA">5b9415fd1be4b51097eaea4fe54bcb67</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5b9495fd1be4b51097eaea4fe54bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Espera 200% de SLA">139495fd1be4b51097eaea4fe54bcbab</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Repair">539495fd1be4b51097eaea4fe54bcba6</condition>
+        <from display_value="Espera 100% de SLA">5b9415fd1be4b51097eaea4fe54bcb67</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9495fd1be4b51097eaea4fe54bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Espera 200% de SLA">139495fd1be4b51097eaea4fe54bcbab</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1b9495fd1be4b51097eaea4fe54bcbaf</condition>
+        <from display_value="Notificación 100% Asignado, Selección">1f9495fd1be4b51097eaea4fe54bcbae</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9495fd1be4b51097eaea4fe54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">df9415fd1be4b51097eaea4fe54bcb66</condition>
+        <from display_value="Notificación 50% Asignado">1f9415fd1be4b51097eaea4fe54bcb65</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>5f9495fd1be4b51097eaea4fe54bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Repair">539495fd1be4b51097eaea4fe54bcbad</condition>
+        <from display_value="Espera 200% de SLA">139495fd1be4b51097eaea4fe54bcbab</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>939495fd1be4b51097eaea4fe54bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="End">5b9495fd1be4b51097eaea4fe54bcbad</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Incomplete">d39495fd1be4b51097eaea4fe54bcbae</condition>
+        <from display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9b9495fd1be4b51097eaea4fe54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="End">5b9495fd1be4b51097eaea4fe54bcbad</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">5b9495fd1be4b51097eaea4fe54bcbaa</condition>
+        <from display_value="Begin">979495fd1be4b51097eaea4fe54bcbaa</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>9b9495fd1be4b51097eaea4fe54bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Espera 50% de SLA">9b9495fd1be4b51097eaea4fe54bcba6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">5f9495fd1be4b51097eaea4fe54bcba8</condition>
+        <from display_value="Espera 50% de SLA">9b9495fd1be4b51097eaea4fe54bcba6</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39495fd1be4b51097eaea4fe54bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Notificación 50% Asignado">1f9415fd1be4b51097eaea4fe54bcb65</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">139495fd1be4b51097eaea4fe54bcbaa</condition>
+        <from display_value="Notificación 200%  Subgerente desarrollo personas">179495fd1be4b51097eaea4fe54bcba9</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d79495fd1be4b51097eaea4fe54bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Wait for all activities to complete">139495fd1be4b51097eaea4fe54bcbae</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">d39495fd1be4b51097eaea4fe54bcba6</condition>
+        <from display_value="Espera 100% de SLA">5b9415fd1be4b51097eaea4fe54bcb67</from>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>db9495fd1be4b51097eaea4fe54bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <to display_value="Notificación 100% Asignado, Selección">1f9495fd1be4b51097eaea4fe54bcbae</to>
+    </wf_transition>
+    <var_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>SLA Repair Mode</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sla_repair_mode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>SLA Repair Mode</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model_id>8b9415fd1be4b51097eaea4fe54bcb62</model_id>
+        <model_table>wf_workflow</model_table>
+        <name>var__m_var_dictionary_8b9415fd1be4b51097eaea4fe54bcb62</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>var_dictionary</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>d39495fd1be4b51097eaea4fe54bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLA Repair Mode</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>var_dictionary_d39495fd1be4b51097eaea4fe54bcbb3</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </var_dictionary>
+    <sys_documentation element="sla_repair_mode" language="en" table="var__m_var_dictionary_8b9415fd1be4b51097eaea4fe54bcb62">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sla_repair_mode</element>
+            <help/>
+            <hint/>
+            <label>SLA Repair Mode</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_8b9415fd1be4b51097eaea4fe54bcb62</name>
+            <plural>SLA Repair Mode</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-09 21:26:59</sys_created_on>
+            <sys_id>db94d5fd1be4b51097eaea4fe54bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SLA Repair Mode</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_8b9415fd1be4b51097eaea4fe54bcb62_sla_repair_mode_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-09 21:26:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 21:26:58</sys_created_on>
+        <sys_id>4b9415fd1be4b51097eaea4fe54bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:26:58</sys_updated_on>
+        <workflow_version display_value="SLX SLA - Flujo Notificaciones GOP">c79415fd1be4b51097eaea4fe54bcb63</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=8b9415fd1be4b51097eaea4fe54bcb62^sys_id!=c79415fd1be4b51097eaea4fe54bcb63">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

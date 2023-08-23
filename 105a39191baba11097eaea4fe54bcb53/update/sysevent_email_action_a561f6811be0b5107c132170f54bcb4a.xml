@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_lbsa_gop_tarea_gop</collection>
+        <condition table="x_lbsa_gop_tarea_gop">stateCHANGESTO3^service_offering=9fcb29521bafe1107c132170f54bcb18^EQ<item display_value="Close Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_table="service_offering" display_value="Coordinación Ingreso" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="9fcb29521bafe1107c132170f54bcb18"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-sheets-userformat="{&quot;2&quot;:14825,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;9&quot;:0,&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cristian, \nSolicito la activaci&oacute;n de los cursos (marcados con x / indicados en plataforma / el formato en que quede la lista del jefe) para el siguiente nuevo(a) trabajador(a):\nNombre completo: xx\nRut: xx\nMail: xx\nGracias. Saludos, \nXxx Reclutadora&quot;}"><strong><span style="font-size: 14pt;">Cristian</span></strong>, <br />Solicito la activaci&oacute;n de los cursos para el siguiente nuevo(a) trabajador(a):</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-sheets-userformat="{&quot;2&quot;:14825,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;9&quot;:0,&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cristian, \nSolicito la activaci&oacute;n de los cursos (marcados con x / indicados en plataforma / el formato en que quede la lista del jefe) para el siguiente nuevo(a) trabajador(a):\nNombre completo: xx\nRut: xx\nMail: xx\nGracias. Saludos, \nXxx Reclutadora&quot;}"><br /><strong>Nombre completo</strong>: ${u_slx_colaborador}</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-sheets-userformat="{&quot;2&quot;:14825,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;9&quot;:0,&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cristian, \nSolicito la activaci&oacute;n de los cursos (marcados con x / indicados en plataforma / el formato en que quede la lista del jefe) para el siguiente nuevo(a) trabajador(a):\nNombre completo: xx\nRut: xx\nMail: xx\nGracias. Saludos, \nXxx Reclutadora&quot;}"><br /><strong>Rut</strong>: ${u_slx_colaborador.u_slx_rut}</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-sheets-userformat="{&quot;2&quot;:14825,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;9&quot;:0,&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cristian, \nSolicito la activaci&oacute;n de los cursos (marcados con x / indicados en plataforma / el formato en que quede la lista del jefe) para el siguiente nuevo(a) trabajador(a):\nNombre completo: xx\nRut: xx\nMail: xx\nGracias. Saludos, \nXxx Reclutadora&quot;}"><br /><strong>Mail</strong>: ${u_slx_colaborador.u_slx_emailcorporativo}</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-sheets-userformat="{&quot;2&quot;:14825,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;9&quot;:0,&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cristian, \nSolicito la activaci&oacute;n de los cursos (marcados con x / indicados en plataforma / el formato en que quede la lista del jefe) para el siguiente nuevo(a) trabajador(a):\nNombre completo: xx\nRut: xx\nMail: xx\nGracias. Saludos, \nXxx Reclutadora&quot;}">${mail_script:slx_cursos_colbun}</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-sheets-userformat="{&quot;2&quot;:14825,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;9&quot;:0,&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cristian, \nSolicito la activaci&oacute;n de los cursos (marcados con x / indicados en plataforma / el formato en que quede la lista del jefe) para el siguiente nuevo(a) trabajador(a):\nNombre completo: xx\nRut: xx\nMail: xx\nGracias. Saludos, \nXxx Reclutadora&quot;}"><br />Gracias. Saludos, <br />${u_slx_responsable_proceso} Reclutadora</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-sheets-userformat="{&quot;2&quot;:14825,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;9&quot;:0,&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cristian, \nSolicito la activaci&oacute;n de los cursos (marcados con x / indicados en plataforma / el formato en que quede la lista del jefe) para el siguiente nuevo(a) trabajador(a):\nNombre completo: xx\nRut: xx\nMail: xx\nGracias. Saludos, \nXxx Reclutadora&quot;}"><img src="/sys_attachment.do?sys_id=f698be121be4b9107c132170f54bcbfd" alt="" width="572" height="126" /></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX Notificación cursos</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>cristian.lucero@elogos.cl</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.er</sys_created_by>
+        <sys_created_on>2023-08-07 20:16:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a561f6811be0b5107c132170f54bcb4a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SLX Notificación cursos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sysevent_email_action_a561f6811be0b5107c132170f54bcb4a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-17 16:59:34</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6232a6991b2fa11097eaea4fe54bcb78" sys_domain="global" table="x_lbsa_gop_req_gop" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-19 20:46:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2632e6991b2fa11097eaea4fe54bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lbsa_gop_req_gop" name="x_lbsa_gop_req_gop" sys_domain="global" view="45b98a251b052010bb2611f18c4bcb6c">6232a6991b2fa11097eaea4fe54bcb78</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_lbsa_gop_req_gop" sys_domain="global" view="45b98a251b052010bb2611f18c4bcb6c">a632a6991b2fa11097eaea4fe54bcb7b</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-19 20:46:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-19 20:46:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e32e6991b2fa11097eaea4fe54bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lbsa_gop_req_gop" name="x_lbsa_gop_req_gop" sys_domain="global" view="45b98a251b052010bb2611f18c4bcb6c">6232a6991b2fa11097eaea4fe54bcb78</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_lbsa_gop_req_gop" sys_domain="global" view="45b98a251b052010bb2611f18c4bcb6c">ae32e6991b2fa11097eaea4fe54bcb00</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-19 20:46:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-19 20:46:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2232e6991b2fa11097eaea4fe54bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lbsa_gop_req_gop" name="x_lbsa_gop_req_gop" sys_domain="global" view="45b98a251b052010bb2611f18c4bcb6c">6232a6991b2fa11097eaea4fe54bcb78</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_lbsa_gop_req_gop" sys_domain="global" view="45b98a251b052010bb2611f18c4bcb6c">a232e6991b2fa11097eaea4fe54bcb06</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-19 20:46:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_lbsa_gop_req_gop</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-19 20:46:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6232a6991b2fa11097eaea4fe54bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_lbsa_gop_req_gop</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6232a6991b2fa11097eaea4fe54bcb78</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-19 20:46:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">45b98a251b052010bb2611f18c4bcb6c</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

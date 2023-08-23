@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_flujo" label="Flujo iniciado" language="en" table="x_lbsa_gop_req_gop">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_flujo</element>
+            <help/>
+            <hint/>
+            <label>Flujo iniciado</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <plural>Flujo iniciados</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-29 15:24:49</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Flujo iniciado</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_documentation_x_lbsa_gop_req_gop_u_slx_flujo_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-03 20:04:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

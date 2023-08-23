@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt;" data-sheets-userformat="{&quot;2&quot;:14593,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:3,&quot;3&quot;:1},&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:11}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hola a todos! (Ma&ntilde;ana/El d&iacute;a xx) xngresa XX, al equipo de XX, como xx (Cargo). \nRealizaremos un proceso de inducci&oacute;n, que contempla reuniones con algunos de ustedes donde ya est&aacute;n agendados. \nA la hora de almuerzo saldremos todos juntos, por lo que les dejo extendida la invitaci&oacute;n. \nAgradezco de antemano el recibimiento que puedan darle a XX en sus distintas &aacute;reas.\nSaludos, \nXX Jefe directo&quot;}">Hola a todos! (Ma&ntilde;ana/El d&iacute;a xx) ingresa ${u_slx_colaborador}, al equipo de XX, como ${u_slx_colaborador.u_slx_cargo}.</span></strong></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-userformat="{&quot;2&quot;:14593,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:3,&quot;3&quot;:1},&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:11}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hola a todos! (Ma&ntilde;ana/El d&iacute;a xx) xngresa XX, al equipo de XX, como xx (Cargo). \nRealizaremos un proceso de inducci&oacute;n, que contempla reuniones con algunos de ustedes donde ya est&aacute;n agendados. \nA la hora de almuerzo saldremos todos juntos, por lo que les dejo extendida la invitaci&oacute;n. \nAgradezco de antemano el recibimiento que puedan darle a XX en sus distintas &aacute;reas.\nSaludos, \nXX Jefe directo&quot;}"> <br />Realizaremos un proceso de inducci&oacute;n, que contempla reuniones con algunos de ustedes donde ya est&aacute;n agendados. <br />A la hora de almuerzo saldremos todos juntos, por lo que les dejo extendida la invitaci&oacute;n. <br />Agradezco de antemano el recibimiento que puedan darle a ${u_slx_colaborador} en sus distintas &aacute;reas.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-userformat="{&quot;2&quot;:14593,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:3,&quot;3&quot;:1},&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:11}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hola a todos! (Ma&ntilde;ana/El d&iacute;a xx) xngresa XX, al equipo de XX, como xx (Cargo). \nRealizaremos un proceso de inducci&oacute;n, que contempla reuniones con algunos de ustedes donde ya est&aacute;n agendados. \nA la hora de almuerzo saldremos todos juntos, por lo que les dejo extendida la invitaci&oacute;n. \nAgradezco de antemano el recibimiento que puedan darle a XX en sus distintas &aacute;reas.\nSaludos, \nXX Jefe directo&quot;}"><br /><strong>Saludos</strong>, <br />${u_slx_jefe_directo} Jefe directo<br /><br /><img src="/sys_attachment.do?sys_id=f698be121be4b9107c132170f54bcbfd" alt="" width="572" height="126" /><br /></span></p>]]></body>
+        <condition/>
+        <group display_value="Selección" name="Selección">72c33cd21bebe1107c132170f54bcbd1</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>slx.er</sys_created_by>
+        <sys_created_on>2023-08-11 20:12:46</sys_created_on>
+        <sys_id>2bc6d3da1b28b9107c132170f54bcbff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Jefe informa sobre nuevo colaborador</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_email_canned_message_2bc6d3da1b28b9107c132170f54bcbff</sys_update_name>
+        <sys_updated_by>slx.er</sys_updated_by>
+        <sys_updated_on>2023-08-11 20:18:24</sys_updated_on>
+        <table>x_lbsa_gop_req_gop</table>
+        <title>Jefe informa sobre nuevo colaborador</title>
+        <user/>
+    </sys_email_canned_message>
+</record_update>

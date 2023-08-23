@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p><img title="Bienvenida 2023 (3).png" src="/sys_attachment.do?sys_id=b7bc3c041bf4b11097eaea4fe54bcb6a" alt="" width="795" height="1126" data-library="false" /></p>]]></body>
+        <condition/>
+        <group display_value="Selección" name="Selección">72c33cd21bebe1107c132170f54bcbd1</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>slx.er</sys_created_by>
+        <sys_created_on>2023-08-16 19:29:43</sys_created_on>
+        <sys_id>a52cb8041bf4b11097eaea4fe54bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notificación beneficios bienestar </sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_email_canned_message_a52cb8041bf4b11097eaea4fe54bcb43</sys_update_name>
+        <sys_updated_by>slx.er</sys_updated_by>
+        <sys_updated_on>2023-08-16 19:29:43</sys_updated_on>
+        <table>x_lbsa_gop_req_gop</table>
+        <title>Notificación beneficios bienestar </title>
+        <user/>
+    </sys_email_canned_message>
+</record_update>

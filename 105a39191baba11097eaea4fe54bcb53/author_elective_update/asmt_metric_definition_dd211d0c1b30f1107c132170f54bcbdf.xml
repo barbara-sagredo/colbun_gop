@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>PS.10 - Proceso presupuestario de Programa de Inversiones (IM)</display>
+        <metric display_value="Academia Técnica">a601550c1b30f1107c132170f54bcb4b</metric>
+        <normalization_input>220</normalization_input>
+        <order>220</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:58:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd211d0c1b30f1107c132170f54bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PS.10 - Proceso presupuestario de Programa de Inversiones (IM)</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_dd211d0c1b30f1107c132170f54bcbdf</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:58:09</sys_updated_on>
+        <unselected_image/>
+        <value>220</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=dd211d0c1b30f1107c132170f54bcbdf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_dd211d0c1b30f1107c132170f54bcbdf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>PS.10 - Proceso presupuestario de Programa de Inversiones (IM)</display><metric display_value="Academia Técnica">a601550c1b30f1107c132170f54bcb4b</metric><normalization_input>220</normalization_input><order>220</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:58:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dd211d0c1b30f1107c132170f54bcbdf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PS.10 - Proceso presupuestario de Programa de Inversiones (IM)</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_dd211d0c1b30f1107c132170f54bcbdf</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:58:09</sys_updated_on><unselected_image/><value>220</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=dd211d0c1b30f1107c132170f54bcbdf"/></record_update>]]></payload>
+        <payload_hash>-134326380</payload_hash>
+        <record_name>PS.10 - Proceso presupuestario de Programa de Inversiones (IM)</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:58:09</sys_created_on>
+        <sys_id>1d211d0c1b30f1107c132170f54bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a00243cd40000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:58:09</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>15211d0ce530f110771d041c491d5be4</update_guid>
+        <update_guid_history>15211d0ce530f110771d041c491d5be4:-134326380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PS.10 - Proceso presupuestario de Programa de Inversiones (IM)">98b6e9001bb0f1107c132170f54bcbdb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 22:32:17</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>2b6f1266964649aca2f3829d74cf4f49</sys_id>
+        <sys_metadata>dd211d0c1b30f1107c132170f54bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PS.10 - Proceso presupuestario de Programa de Inversiones (IM)</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_dd211d0c1b30f1107c132170f54bcbdf</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_dd211d0c1b30f1107c132170f54bcbdf">1d211d0c1b30f1107c132170f54bcbe4</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 22:32:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

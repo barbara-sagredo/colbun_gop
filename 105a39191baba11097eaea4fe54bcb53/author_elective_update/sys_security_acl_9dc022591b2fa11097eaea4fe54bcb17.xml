@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_lbsa_gop_req_gop</description>
+        <name>x_lbsa_gop_req_gop</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-19 20:39:57</sys_created_on>
+        <sys_id>9dc022591b2fa11097eaea4fe54bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_lbsa_gop_req_gop</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_security_acl_9dc022591b2fa11097eaea4fe54bcb17</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-19 20:39:57</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>sys_security_acl_9dc022591b2fa11097eaea4fe54bcb17</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_lbsa_gop_req_gop</description><name>x_lbsa_gop_req_gop</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-06-19 20:39:57</sys_created_on><sys_id>9dc022591b2fa11097eaea4fe54bcb17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_lbsa_gop_req_gop</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>sys_security_acl_9dc022591b2fa11097eaea4fe54bcb17</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-06-19 20:39:57</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1183063401</payload_hash>
+        <record_name>x_lbsa_gop_req_gop</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-19 20:39:57</sys_created_on>
+        <sys_id>ddc022591b2fa11097eaea4fe54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188d562bcbd0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-19 20:39:57</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d5c02259a22fa110820016beb92da219</update_guid>
+        <update_guid_history>d5c02259a22fa110820016beb92da219:1183063401</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-19 20:40:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2ee86adcc83b42108bcc87101cdc4421</sys_id>
+        <sys_metadata>9dc022591b2fa11097eaea4fe54bcb17</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_lbsa_gop_req_gop</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent display_value="x_lbsa_gop_req_gop">19c022591b2fa11097eaea4fe54bcb85</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9dc022591b2fa11097eaea4fe54bcb17</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9dc022591b2fa11097eaea4fe54bcb17">ddc022591b2fa11097eaea4fe54bcb19</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-19 20:40:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>PS.04 Ejecución del Proyecto</display>
+        <metric display_value="Seguridad y Salud Ocupacional">dd40d5c81b30f1107c132170f54bcbdc</metric>
+        <normalization_input>60</normalization_input>
+        <order>60</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:55:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f60d9c81b30f1107c132170f54bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PS.04 Ejecución del Proyecto</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_9f60d9c81b30f1107c132170f54bcb2d</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:55:01</sys_updated_on>
+        <unselected_image/>
+        <value>60</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=9f60d9c81b30f1107c132170f54bcb2d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_9f60d9c81b30f1107c132170f54bcb2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>PS.04 Ejecución del Proyecto</display><metric display_value="Seguridad y Salud Ocupacional">dd40d5c81b30f1107c132170f54bcbdc</metric><normalization_input>60</normalization_input><order>60</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:55:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9f60d9c81b30f1107c132170f54bcb2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PS.04 Ejecución del Proyecto</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_9f60d9c81b30f1107c132170f54bcb2d</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:55:01</sys_updated_on><unselected_image/><value>60</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=9f60d9c81b30f1107c132170f54bcb2d"/></record_update>]]></payload>
+        <payload_hash>-1143916358</payload_hash>
+        <record_name>PS.04 Ejecución del Proyecto</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:55:01</sys_created_on>
+        <sys_id>db60d9c81b30f1107c132170f54bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a00215f370000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:55:01</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>d360d9c82d30f1102c2e7bcf68889a32</update_guid>
+        <update_guid_history>d360d9c82d30f1102c2e7bcf68889a32:-1143916358</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PS.04 Ejecución del Proyecto">bb72958c1b30f1107c132170f54bcbea</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 21:04:04</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>24180c8ab7b146ca8750634d46451b91</sys_id>
+        <sys_metadata>9f60d9c81b30f1107c132170f54bcb2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PS.04 Ejecución del Proyecto</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_9f60d9c81b30f1107c132170f54bcb2d</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_9f60d9c81b30f1107c132170f54bcb2d">db60d9c81b30f1107c132170f54bcb32</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 21:04:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

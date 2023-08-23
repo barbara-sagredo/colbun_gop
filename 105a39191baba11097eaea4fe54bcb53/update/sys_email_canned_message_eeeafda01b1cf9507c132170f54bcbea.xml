@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <body><![CDATA[<p>test</p>]]></body>
+        <condition table="x_lbsa_gop_tarea_gop">service_offering=cc1b6d121bafe1107c132170f54bcbef^EQ<item display_table="service_offering" display_value="LLamado Nuevo colaborador" endquery="false" field="service_offering" goto="false" newquery="false" operator="=" or="false" value="cc1b6d121bafe1107c132170f54bcbef"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <group/>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-07-24 16:46:13</sys_created_on>
+        <sys_id>eeeafda01b1cf9507c132170f54bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Información de beneficios</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_email_canned_message_eeeafda01b1cf9507c132170f54bcbea</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-07-24 16:46:13</sys_updated_on>
+        <table>x_lbsa_gop_tarea_gop</table>
+        <title>Información de beneficios</title>
+        <user/>
+    </sys_email_canned_message>
+</record_update>

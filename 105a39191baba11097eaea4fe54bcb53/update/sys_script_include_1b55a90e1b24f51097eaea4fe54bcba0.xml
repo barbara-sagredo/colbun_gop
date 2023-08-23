@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_lbsa_gop.slx_validacion_datos</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>slx_validacion_datos</name>
+        <script><![CDATA[var slx_validacion_datos = Class.create();
+slx_validacion_datos.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    colaboradores: function(elemento) {
+
+        var contrato = "";
+
+        if (elemento == gs.getProperty('x_lbsa_gop.plazo.fijo')) {
+            contrato = '1';
+
+        } else if (elemento == gs.getProperty('x_lbsa_gop.indefinido')) {
+            contrato = '2';
+        } else if (elemento == gs.getProperty('x_lbsa_gop.practica')) {
+            contrato = '3';
+        }
+
+
+
+        var lista = "";
+        var gr = new GlideRecord("x_lbsa_gop_colaborador");
+		gr.addQuery('u_slx_tipo_contrato',contrato);
+        gr.query();
+        while (gr.next()) {
+
+
+            var gop = new GlideRecord("x_lbsa_gop_req_gop");
+            gop.addQuery('u_slx_colaborador', gr.sys_id);
+            gop.query();
+            if (!gop.next()) {
+                lista = gr.sys_id + ",";
+            }
+
+
+        }
+        return 'sys_idIN'+lista;
+
+    },
+    type: 'slx_validacion_datos'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-10 17:34:07</sys_created_on>
+        <sys_id>1b55a90e1b24f51097eaea4fe54bcba0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>slx_validacion_datos</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_script_include_1b55a90e1b24f51097eaea4fe54bcba0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-10 17:38:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Responsabilidad Penal de las Empresas (Modelo Prevención de Delitos)</display>
+        <metric display_value="General">b53f81881b30f1107c132170f54bcbf2</metric>
+        <normalization_input>10</normalization_input>
+        <order>10</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:50:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a6f05881b30f1107c132170f54bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Responsabilidad Penal de las Empresas (Modelo Prevención de Delitos)</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_4a6f05881b30f1107c132170f54bcbb2</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:50:34</sys_updated_on>
+        <unselected_image/>
+        <value>10</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=4a6f05881b30f1107c132170f54bcbb2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_4a6f05881b30f1107c132170f54bcbb2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Responsabilidad Penal de las Empresas (Modelo Prevención de Delitos)</display><metric display_value="General">b53f81881b30f1107c132170f54bcbf2</metric><normalization_input>10</normalization_input><order>10</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:50:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a6f05881b30f1107c132170f54bcbb2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Responsabilidad Penal de las Empresas (Modelo Prevención de Delitos)</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_4a6f05881b30f1107c132170f54bcbb2</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:50:34</sys_updated_on><unselected_image/><value>10</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=4a6f05881b30f1107c132170f54bcbb2"/></record_update>]]></payload>
+        <payload_hash>2055272463</payload_hash>
+        <record_name>Responsabilidad Penal de las Empresas (Modelo Prevención de Delitos)</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:50:34</sys_created_on>
+        <sys_id>ca6f05881b30f1107c132170f54bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a001d4b790000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:50:34</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>c26f0588f330f1108982af4ffe4afab4</update_guid>
+        <update_guid_history>c26f0588f330f1108982af4ffe4afab4:2055272463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Responsabilidad Penal de las Empresas (Modelo Prevención de Delitos)">239fc9881b30f1107c132170f54bcb62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:51:29</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>00b9295135ee4b2a8000b394041ec444</sys_id>
+        <sys_metadata>4a6f05881b30f1107c132170f54bcbb2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Responsabilidad Penal de las Empresas (Modelo Prevención de Delitos)</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_4a6f05881b30f1107c132170f54bcbb2</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_4a6f05881b30f1107c132170f54bcbb2">ca6f05881b30f1107c132170f54bcbb4</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:51:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

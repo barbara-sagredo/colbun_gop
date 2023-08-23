@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>CAB Approval</display>
+        <metric display_value="grupo">653981041b30f1107c132170f54bcbca</metric>
+        <normalization_input>930</normalization_input>
+        <order>930</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:24:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3079c5041b30f1107c132170f54bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAB Approval</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_3079c5041b30f1107c132170f54bcbc1</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:24:32</sys_updated_on>
+        <unselected_image/>
+        <value>930</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=3079c5041b30f1107c132170f54bcbc1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_3079c5041b30f1107c132170f54bcbc1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>CAB Approval</display><metric display_value="grupo">653981041b30f1107c132170f54bcbca</metric><normalization_input>930</normalization_input><order>930</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:24:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3079c5041b30f1107c132170f54bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CAB Approval</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_3079c5041b30f1107c132170f54bcbc1</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:24:32</sys_updated_on><unselected_image/><value>930</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=3079c5041b30f1107c132170f54bcbc1"/></record_update>]]></payload>
+        <payload_hash>538946768</payload_hash>
+        <record_name>CAB Approval</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:24:33</sys_created_on>
+        <sys_id>4d79c5041b30f1107c132170f54bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a000578070000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:24:33</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>4579c504e530f110ad8914ee277d98c5</update_guid>
+        <update_guid_history>4579c504e530f110ad8914ee277d98c5:538946768</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CAB Approval">e0dacd441b30f1107c132170f54bcbba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:30:31</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>0e59f3af23cb49c884736760f5ec3684</sys_id>
+        <sys_metadata>3079c5041b30f1107c132170f54bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAB Approval</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_3079c5041b30f1107c132170f54bcbc1</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_3079c5041b30f1107c132170f54bcbc1">4d79c5041b30f1107c132170f54bcbc5</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:30:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

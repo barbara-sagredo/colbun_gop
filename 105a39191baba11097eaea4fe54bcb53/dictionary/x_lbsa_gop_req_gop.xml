@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" db_object_id="eb702e191b2fa11097eaea4fe54bcbd9" extends="universal_request" label="Requerimiento GOP" max_length="40" name="x_lbsa_gop_req_gop" type="collection">
+        <element label="Área" max_length="40" name="u_slx_area" read_only="true" reference="cmn_department" type="reference"/>
+        <element attributes="encode_utf8=false" label="Cargo" max_length="200" name="u_slx_cargo" read_only="true" type="string"/>
+        <element label="Nombre Colaborador " max_length="40" name="u_slx_colaborador" read_only="true" reference="x_lbsa_gop_colaborador" type="reference"/>
+        <element default="current.u_slx_colaborador.u_slx_fecha_ingreso&#13;&#10;" label="Fecha de Ingreso" max_length="40" name="u_slx_fecha_ingreso" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de Termino" max_length="40" name="u_slx_fecha_termino" read_only="true" type="glide_date"/>
+        <element label="Flujo iniciado" max_length="40" name="u_slx_flujo" read_only="true" type="boolean"/>
+        <element label="Gerencia" max_length="40" name="u_slx_gerencia" read_only="true" reference="cmn_department" type="reference"/>
+        <element label="Nombre jefe Directo" max_length="32" name="u_slx_jefe_directo" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="Lugar" max_length="40" name="u_slx_lugar" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Casa Matriz" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Centrales" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="Proyectos" sequence="30" value="3"/>
+            </choice>
+        </element>
+        <element label="Nombre Responsable del proceso" max_length="32" name="u_slx_responsable_proceso" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="Tipo de Contrato" max_length="40" name="u_slx_tipo_contrato" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Plazo Fijo" sequence="0" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Practica" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Plazo Indefinido" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Plazo Fijo" language="es" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Plazo Indefinido" language="es" sequence="15" value="2"/>
+                <element inactive_on_update="false" label="Practica" sequence="20" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

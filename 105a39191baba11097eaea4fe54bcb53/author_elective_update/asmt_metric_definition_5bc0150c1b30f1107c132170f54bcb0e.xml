@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>PM-Gx.08 Caso Base y Presupuesto</display>
+        <metric display_value="Legal">61b0910c1b30f1107c132170f54bcb26</metric>
+        <normalization_input>190</normalization_input>
+        <order>190</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:56:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bc0150c1b30f1107c132170f54bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PM-Gx.08 Caso Base y Presupuesto</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_5bc0150c1b30f1107c132170f54bcb0e</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:56:39</sys_updated_on>
+        <unselected_image/>
+        <value>190</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=5bc0150c1b30f1107c132170f54bcb0e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_5bc0150c1b30f1107c132170f54bcb0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>PM-Gx.08 Caso Base y Presupuesto</display><metric display_value="Legal">61b0910c1b30f1107c132170f54bcb26</metric><normalization_input>190</normalization_input><order>190</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:56:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5bc0150c1b30f1107c132170f54bcb0e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PM-Gx.08 Caso Base y Presupuesto</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_5bc0150c1b30f1107c132170f54bcb0e</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:56:39</sys_updated_on><unselected_image/><value>190</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=5bc0150c1b30f1107c132170f54bcb0e"/></record_update>]]></payload>
+        <payload_hash>458278792</payload_hash>
+        <record_name>PM-Gx.08 Caso Base y Presupuesto</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:56:39</sys_created_on>
+        <sys_id>97c0150c1b30f1107c132170f54bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0022dce30000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:56:39</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>9fc0150ca230f110071ea2c454a1bb12</update_guid>
+        <update_guid_history>9fc0150ca230f110071ea2c454a1bb12:458278792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PM-Gx.08 Caso Base y Presupuesto">84a3d9cc1b30f1107c132170f54bcb10</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 21:08:59</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>075d768bd3ae4e268846db22452a6524</sys_id>
+        <sys_metadata>5bc0150c1b30f1107c132170f54bcb0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PM-Gx.08 Caso Base y Presupuesto</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_5bc0150c1b30f1107c132170f54bcb0e</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_5bc0150c1b30f1107c132170f54bcb0e">97c0150c1b30f1107c132170f54bcb13</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 21:08:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Requerimiento GOP">81c022591b2fa11097eaea4fe54bcb06</application>
+        <filter/>
+        <name>Requerimiento GOPs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_lbsa_gop.requerimiento_gop_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-19 20:39:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05c022591b2fa11097eaea4fe54bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requerimiento GOPs</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_ui_module_05c022591b2fa11097eaea4fe54bcb09</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-19 20:39:57</sys_updated_on>
+        <table>x_lbsa_gop_req_gop</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

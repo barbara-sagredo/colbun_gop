@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-20 20:19:58</sys_created_on>
+        <sys_id>56c56b251bebe11097eaea4fe54bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_lbsa_gop_req_gop.x_lbsa_gop.requerimiento_gop_user</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_security_acl display_value="x_lbsa_gop_req_gop">9ec56b251bebe11097eaea4fe54bcb78</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_56c56b251bebe11097eaea4fe54bcb7c</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-20 20:19:58</sys_updated_on>
+        <sys_user_role display_value="x_lbsa_gop.requerimiento_gop_user" name="x_lbsa_gop.requerimiento_gop_user">01c0ee191b2fa11097eaea4fe54bcb63</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="72976a9d1b2fa11097eaea4fe54bcb0c" extends="cmdb_ci" label="Persona" max_length="40" name="x_lbsa_gop_persona" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Email personal" mandatory="true" max_length="100" name="u_slx_email_personal" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rut" mandatory="true" max_length="40" name="u_slx_rut" type="string"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="u_slx_user" reference="sys_user" type="reference"/>
+    </element>
+</database>

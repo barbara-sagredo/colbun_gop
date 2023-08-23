@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>slx_cursos_colbun</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+
+    var tabla1 = '<table style="border-collapse: collapse; width: 100%;" border="1">' +
+        '<tbody>' + '<tr>' + '<td style="width: 33.3333%;"><strong><span style="font-size: 12.0pt; font-family: Verdana, sans-serif; color: black;">Tipo de Curso</strong></td>' + '<td style="width: 33.3333%;"><strong><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;">Nombre del Curso</strong></td>';
+	
+	var tabla2='';
+	 var finTabla = '</tr>' + '</tbody>' + '</table>';
+    var gr = new GlideRecord("asmt_metric_result");
+    gr.addQuery("source_id", current.sys_id);
+    gr.addQuery("metric.category", "55ee8d481b30f1107c132170f54bcb3b");
+    gr.query();
+    gr.orderBy("actual_value");
+    while (gr.next()) {
+        var tipo = gr.metric.u_slx_tipo_curso.getDisplayValue();
+    //    template.print("<b>Tipo:</b> " + tipo + " <b>Curso</b>: " + gr.string_value + "<br>");
+		
+		tabla2 += '<tr><td style=\"padding: 5px;font-family: Arial, sans-serif; border: 1px solid; border-color: grey;\">' +
+                    tipo + "</td><td style=\"padding: 5px;font-family: Arial, sans-serif; border: 1px solid; border-color: grey;\">" +
+                    gr.string_value + "</td>";
+
+    }
+template.print(tabla1 + tabla2 + finTabla);
+
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-17 16:39:34</sys_created_on>
+        <sys_id>cbed51981bfcf1107c132170f54bcbae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>slx_cursos_colbun</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_script_email_cbed51981bfcf1107c132170f54bcbae</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-17 16:58:07</sys_updated_on>
+    </sys_script_email>
+</record_update>

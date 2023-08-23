@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Nuevo Proceso para Plazo Fijo">61c6fa611b6be11097eaea4fe54bcba2</sc_cat_item>
+        <sc_catalog display_value="Servicios TI">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-20 16:59:12</sys_created_on>
+        <sys_id>49d73aa11b6be11097eaea4fe54bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Servicios TI.Nuevo Proceso para Plazo Fijo</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_49d73aa11b6be11097eaea4fe54bcb90</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-20 16:59:12</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

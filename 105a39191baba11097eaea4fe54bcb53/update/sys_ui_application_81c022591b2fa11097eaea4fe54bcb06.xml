@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Requerimiento GOP</name>
+        <order/>
+        <roles>x_lbsa_gop.requerimiento_gop_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-19 20:39:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81c022591b2fa11097eaea4fe54bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requerimiento GOP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_ui_application_81c022591b2fa11097eaea4fe54bcb06</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-19 20:39:57</sys_updated_on>
+    </sys_ui_application>
+</record_update>

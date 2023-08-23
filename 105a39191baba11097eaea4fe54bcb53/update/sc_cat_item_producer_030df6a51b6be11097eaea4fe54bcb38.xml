@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Procesos de OB">873422b61bd475107c132170f54bcb2d</category>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta>gop, indefinido</meta>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Nuevo Proceso para Plazo Indefinido</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="slx bs">16200b351badec10bdd653111b4bcb89</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=030df6a51b6be11097eaea4fe54bcb38&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[var record = new GlideRecord('sc_cat_item_producer');
+record.get(RP.getParameterValue('sysparm_id'));
+current.u_slx_colaborador = producer.u_slx_colaborador;
+current.u_slx_responsable_proceso = producer.u_slx_responsable_proceso;
+current.u_slx_jefe_directo = producer.u_slx_jefe_directo;
+current.u_slx_lugar = producer.u_slx_lugar;
+current.u_slx_gerencia = producer.u_slx_gerencia;
+current.u_slx_area = producer.u_slx_area;
+current.u_slx_tipo_contrato = "2";
+current.contact_type='self_service';]]></script>
+        <short_description>Aquí podrá solicitar un nuevo proceso GOP para contrato Indefinido</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-20 17:21:59</sys_created_on>
+        <sys_id>030df6a51b6be11097eaea4fe54bcb38</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Nuevo Proceso para Plazo Indefinido</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sc_cat_item_producer_030df6a51b6be11097eaea4fe54bcb38</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-03 20:07:33</sys_updated_on>
+        <table_name>x_lbsa_gop_req_gop</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_slx_approval_group/>
+        <u_slx_business_service/>
+        <u_slx_categoria/>
+        <u_slx_ci/>
+        <u_slx_grupo_tarea_1/>
+        <u_slx_grupo_tarea_2/>
+        <u_slx_grupo_tarea_3/>
+        <u_slx_grupo_tarea_4/>
+        <u_slx_grupo_tarea_5/>
+        <u_slx_service_offering_1/>
+        <u_slx_service_offering_2/>
+        <u_slx_service_offering_4/>
+        <u_slx_service_offering_5/>
+        <u_slx_service_offering_tarea_3/>
+        <u_slx_sla/>
+        <u_slx_sla_portal/>
+        <u_slx_sla_tarea_1/>
+        <u_slx_sla_tarea_2/>
+        <u_slx_sla_tarea_3/>
+        <u_slx_sla_tarea_4/>
+        <u_slx_sla_tarea_5/>
+        <u_slx_subcategoria/>
+        <u_slx_tarea_1/>
+        <u_slx_tarea_2/>
+        <u_slx_tarea_3/>
+        <u_slx_tarea_4/>
+        <u_slx_tarea_5/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=030df6a51b6be11097eaea4fe54bcb38"/>
+    <fx_price action="delete_multiple" query="id=030df6a51b6be11097eaea4fe54bcb38"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="EUR">EUR</currency>
+        <field>price</field>
+        <id>030df6a51b6be11097eaea4fe54bcb38</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-20 17:21:59</sys_created_on>
+        <sys_id>c70df6a51b6be11097eaea4fe54bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-20 17:21:59</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

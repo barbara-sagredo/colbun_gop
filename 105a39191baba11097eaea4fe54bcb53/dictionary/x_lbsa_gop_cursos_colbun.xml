@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d2b89441b30f1107c132170f54bcbf2" extends="cmdb_ci" label="Cursos Colbun" max_length="40" name="x_lbsa_gop_cursos_colbun" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo" mandatory="true" max_length="40" name="u_slx_tipo" type="string">
+            <choice>
+                <element inactive_on_update="false" label="General" sequence="0" value="general"/>
+                <element inactive_on_update="false" label="Auditoría" sequence="1" value="auditoría"/>
+                <element inactive_on_update="false" label="Seguridad y Salud Ocupacional" sequence="2" value="seguridad_salud"/>
+                <element inactive_on_update="false" label="TI" sequence="3" value="ti"/>
+                <element inactive_on_update="false" label="Legal" sequence="4" value="legal"/>
+                <element inactive_on_update="false" label="Bienestar" sequence="5" value="bienestar"/>
+                <element inactive_on_update="false" label="Academia Técnica" sequence="6" value="academia_tecnica"/>
+                <element inactive_on_update="false" label="S4 Hana" sequence="7" value="s4_hana"/>
+            </choice>
+        </element>
+    </element>
+</database>

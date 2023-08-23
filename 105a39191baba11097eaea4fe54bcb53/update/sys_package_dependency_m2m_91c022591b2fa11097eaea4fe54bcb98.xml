@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Universal Request" source="sn_uni_req">c1ddba4773b10010cbb654eb7df6a76b</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-19 20:39:58</sys_created_on>
+        <sys_id>91c022591b2fa11097eaea4fe54bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-19 20:39:58</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

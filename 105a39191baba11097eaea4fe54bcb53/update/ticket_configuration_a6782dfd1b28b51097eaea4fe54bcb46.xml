@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ticket_configuration">
+    <ticket_configuration action="INSERT_OR_UPDATE">
+        <action_widget/>
+        <action_widget_param/>
+        <active>true</active>
+        <advanced>false</advanced>
+        <description_field>description</description_field>
+        <info_fields>u_slx_colaborador,u_slx_responsable_proceso,u_slx_jefe_directo,opened_at,active</info_fields>
+        <info_widget/>
+        <info_widget_param/>
+        <show_description/>
+        <state_field>state</state_field>
+        <sys_class_name>ticket_configuration</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-09 22:54:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6782dfd1b28b51097eaea4fe54bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_lbsa_gop_req_gop</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>ticket_configuration_a6782dfd1b28b51097eaea4fe54bcb46</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:54:14</sys_updated_on>
+        <table>x_lbsa_gop_req_gop</table>
+    </ticket_configuration>
+</record_update>

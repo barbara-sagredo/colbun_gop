@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_lbsa_gop_req_gop</collection>
+        <condition table="x_lbsa_gop_req_gop">u_slx_lugar=1^u_slx_tipo_contrato=2^ORu_slx_tipo_contrato=3^EQ<item display_value="Casa Matriz" endquery="false" field="u_slx_lugar" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="Plazo Indefinido" endquery="false" field="u_slx_tipo_contrato" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item display_value="Practica" endquery="false" field="u_slx_tipo_contrato" goto="false" newquery="false" operator="=" or="true" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-textstyleruns="{&quot;1&quot;:0}{&quot;1&quot;:52,&quot;2&quot;:{&quot;2&quot;:{&quot;1&quot;:2,&quot;2&quot;:4485828}}}{&quot;1&quot;:93}" data-sheets-userformat="{&quot;2&quot;:15289,&quot;3&quot;:{&quot;1&quot;:0},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hola XXX (Nuevo ingreso), &iquest;C&oacute;mo est&aacute;s? \nBienvenida a ser parte de la mejor energ&iacute;a en Colb&uacute;n!\n\nCon el fin de incorporarte de manera exitosa, te solicitamos realizar las siguientes actividades: \nIngresa tus antecedentes al sistema GO \n1)        Documentos Personales \nAl momento de aprobar tu carta de oferta, te pedimos reunir tus antecedentes personales que debes cargar hoy en nuestro sistema GO. Para subir los documentos, debes ingresar a la Intranet y luego dirigirte a &ldquo;Plataforma GO&rdquo;. All&iacute; accede a tu Perfil y c&aacute;rgalos en &ldquo;Documentos Personales&rdquo;. \n2)        Informaci&oacute;n de Pago\nSube tu informaci&oacute;n para pago de tu remuneraci&oacute;n en la secci&oacute;n &ldquo;Informaci&oacute;n de Cuenta Bancaria.\n\n3)        Perfil: \nRevisa la informaci&oacute;n que aparece en tu perfil y completa o actual&iacute;zala en caso de ser necesario (contactos y direcciones, grupo familiar, perfil de carrera)\n\nParticipa del Proceso de Inducci&oacute;n\n1.        Contamos en la compa&ntilde;&iacute;a con nuestro Campus Colb&uacute;n, donde encontrar&aacute;s un grupo de cursos online que se te han asignado para que realices. \nDebes ingresar a https://campus.colbun.cl/ y s&oacute;lo presionar &ldquo;Ingresar&rdquo; en la parte superior derecha.\n2.        Adem&aacute;s, te agendaremos para una Charla de Beneficios Colb&uacute;n.\n\nContrato\nTe contrato te llegar&aacute; a trav&eacute;s de la plataforma IDOK a tu correo personal, durante los pr&oacute;ximos 15 d&iacute;as. \n\nTe invitamos a seguir nuestras Redes Sociales\nLinkedin: https://www.linkedin.com/company/colbun-s-a/\nInstagram: https://www.instagram.com/energiacolbun/?hl=es @energiacolbun \n\nSi tienes alguna duda o comentario, comun&iacute;cate conmigo a este mail o por Teams. \nSaludos!\nXXX Reclutadora&quot;}"><span style="font-size: 14pt;"><strong>Hola ${u_slx_colaborador}, &iquest;C&oacute;mo est&aacute;s? </strong></span><br /><span style="font-size: 14pt;"><strong>Bienvenida a ser parte de la mejor energ&iacute;a en Colb&uacute;n!</strong></span><br /><br />Con el fin de incorporarte de manera exitosa, te solicitamos realizar las siguientes actividades: <br />Ingresa tus antecedentes al sistema GO</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-textstyleruns="{&quot;1&quot;:0}{&quot;1&quot;:52,&quot;2&quot;:{&quot;2&quot;:{&quot;1&quot;:2,&quot;2&quot;:4485828}}}{&quot;1&quot;:93}" data-sheets-userformat="{&quot;2&quot;:15289,&quot;3&quot;:{&quot;1&quot;:0},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hola XXX (Nuevo ingreso), &iquest;C&oacute;mo est&aacute;s? \nBienvenida a ser parte de la mejor energ&iacute;a en Colb&uacute;n!\n\nCon el fin de incorporarte de manera exitosa, te solicitamos realizar las siguientes actividades: \nIngresa tus antecedentes al sistema GO \n1)        Documentos Personales \nAl momento de aprobar tu carta de oferta, te pedimos reunir tus antecedentes personales que debes cargar hoy en nuestro sistema GO. Para subir los documentos, debes ingresar a la Intranet y luego dirigirte a &ldquo;Plataforma GO&rdquo;. All&iacute; accede a tu Perfil y c&aacute;rgalos en &ldquo;Documentos Personales&rdquo;. \n2)        Informaci&oacute;n de Pago\nSube tu informaci&oacute;n para pago de tu remuneraci&oacute;n en la secci&oacute;n &ldquo;Informaci&oacute;n de Cuenta Bancaria.\n\n3)        Perfil: \nRevisa la informaci&oacute;n que aparece en tu perfil y completa o actual&iacute;zala en caso de ser necesario (contactos y direcciones, grupo familiar, perfil de carrera)\n\nParticipa del Proceso de Inducci&oacute;n\n1.        Contamos en la compa&ntilde;&iacute;a con nuestro Campus Colb&uacute;n, donde encontrar&aacute;s un grupo de cursos online que se te han asignado para que realices. \nDebes ingresar a https://campus.colbun.cl/ y s&oacute;lo presionar &ldquo;Ingresar&rdquo; en la parte superior derecha.\n2.        Adem&aacute;s, te agendaremos para una Charla de Beneficios Colb&uacute;n.\n\nContrato\nTe contrato te llegar&aacute; a trav&eacute;s de la plataforma IDOK a tu correo personal, durante los pr&oacute;ximos 15 d&iacute;as. \n\nTe invitamos a seguir nuestras Redes Sociales\nLinkedin: https://www.linkedin.com/company/colbun-s-a/\nInstagram: https://www.instagram.com/energiacolbun/?hl=es @energiacolbun \n\nSi tienes alguna duda o comentario, comun&iacute;cate conmigo a este mail o por Teams. \nSaludos!\nXXX Reclutadora&quot;}"> <br /><strong>1) Documentos Personales</strong> <br />Al momento de aprobar tu carta de oferta, te pedimos reunir tus antecedentes personales que debes cargar hoy en nuestro sistema GO. Para subir los documentos, debes ingresar a la Intranet y luego dirigirte a &ldquo;Plataforma GO&rdquo;. All&iacute; accede a tu Perfil y c&aacute;rgalos en <strong>&ldquo;Documentos Personales&rdquo;.</strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-textstyleruns="{&quot;1&quot;:0}{&quot;1&quot;:52,&quot;2&quot;:{&quot;2&quot;:{&quot;1&quot;:2,&quot;2&quot;:4485828}}}{&quot;1&quot;:93}" data-sheets-userformat="{&quot;2&quot;:15289,&quot;3&quot;:{&quot;1&quot;:0},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hola XXX (Nuevo ingreso), &iquest;C&oacute;mo est&aacute;s? \nBienvenida a ser parte de la mejor energ&iacute;a en Colb&uacute;n!\n\nCon el fin de incorporarte de manera exitosa, te solicitamos realizar las siguientes actividades: \nIngresa tus antecedentes al sistema GO \n1)        Documentos Personales \nAl momento de aprobar tu carta de oferta, te pedimos reunir tus antecedentes personales que debes cargar hoy en nuestro sistema GO. Para subir los documentos, debes ingresar a la Intranet y luego dirigirte a &ldquo;Plataforma GO&rdquo;. All&iacute; accede a tu Perfil y c&aacute;rgalos en &ldquo;Documentos Personales&rdquo;. \n2)        Informaci&oacute;n de Pago\nSube tu informaci&oacute;n para pago de tu remuneraci&oacute;n en la secci&oacute;n &ldquo;Informaci&oacute;n de Cuenta Bancaria.\n\n3)        Perfil: \nRevisa la informaci&oacute;n que aparece en tu perfil y completa o actual&iacute;zala en caso de ser necesario (contactos y direcciones, grupo familiar, perfil de carrera)\n\nParticipa del Proceso de Inducci&oacute;n\n1.        Contamos en la compa&ntilde;&iacute;a con nuestro Campus Colb&uacute;n, donde encontrar&aacute;s un grupo de cursos online que se te han asignado para que realices. \nDebes ingresar a https://campus.colbun.cl/ y s&oacute;lo presionar &ldquo;Ingresar&rdquo; en la parte superior derecha.\n2.        Adem&aacute;s, te agendaremos para una Charla de Beneficios Colb&uacute;n.\n\nContrato\nTe contrato te llegar&aacute; a trav&eacute;s de la plataforma IDOK a tu correo personal, durante los pr&oacute;ximos 15 d&iacute;as. \n\nTe invitamos a seguir nuestras Redes Sociales\nLinkedin: https://www.linkedin.com/company/colbun-s-a/\nInstagram: https://www.instagram.com/energiacolbun/?hl=es @energiacolbun \n\nSi tienes alguna duda o comentario, comun&iacute;cate conmigo a este mail o por Teams. \nSaludos!\nXXX Reclutadora&quot;}"> <br /><strong>2) Informaci&oacute;n de Pago</strong><br />Sube tu informaci&oacute;n para pago de tu remuneraci&oacute;n en la secci&oacute;n &ldquo;Informaci&oacute;n de Cuenta Bancaria.<br /><br /><strong>3) Perfil</strong><br />Revisa la informaci&oacute;n que aparece en tu perfil y completa o actual&iacute;zala en caso de ser necesario (contactos y direcciones, grupo familiar, perfil de carrera)<br /><br /><strong>Participa del Proceso de Inducci&oacute;n</strong><br /><strong>1.</strong> Contamos en la compa&ntilde;&iacute;a con nuestro Campus Colb&uacute;n, donde encontrar&aacute;s un grupo de cursos online que se te han asignado para que realices. <br />Debes ingresar a <a href="https://campus.colbun.cl/">https://campus.colbun.cl/</a> y s&oacute;lo presionar &ldquo;Ingresar&rdquo; en la parte superior derecha.<br /><strong>2. </strong>Adem&aacute;s, te agendaremos para una Charla de Beneficios Colb&uacute;n.<br /><br /><strong>Contrato</strong><br />Te contrato te llegar&aacute; a trav&eacute;s de la plataforma IDOK a tu correo personal, durante los pr&oacute;ximos 15 d&iacute;as. <br /><br />Te invitamos a seguir nuestras Redes Sociales<br />Linkedin: <a href="https://www.linkedin.com/company/colbun-s-a/">https://www.linkedin.com/company/colbun-s-a/</a><br />Instagram: <a href="https://www.instagram.com/energiacolbun/?hl=es">https://www.instagram.com/energiacolbun/?hl=es</a> <strong>@energiacolbun</strong> <br /><br /><em><strong>Si tienes alguna duda o comentario, comun&iacute;cate conmigo a este mail o por Teams. </strong></em><br /><em><strong>Saludos!</strong></em></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX Bienvenida a nuevo colaborador CT IP</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_slx_colaborador.u_slx_emailcorporativo</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.er</sys_created_by>
+        <sys_created_on>2023-08-07 20:16:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9061b6811be0b5107c132170f54bcb94</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SLX Bienvenida a nuevo colaborador CT IP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sysevent_email_action_9061b6811be0b5107c132170f54bcb94</sys_update_name>
+        <sys_updated_by>slx.er</sys_updated_by>
+        <sys_updated_on>2023-08-07 20:19:48</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="slx_bienvenida_nuevo_colaborador">3c1ba9631b14b51097eaea4fe54bcbe8</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

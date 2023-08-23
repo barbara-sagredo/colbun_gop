@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="39872b651bebe11097eaea4fe54bcb57" extends="x_lbsa_gop_req_gop" label="Tarea de GOP" max_length="40" name="x_lbsa_gop_tarea_gop" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Aplica Bienestar?" max_length="40" name="u_slx_aplica_bienestar" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="sí"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Envió email de bienvenida?" max_length="40" name="u_slx_email_bienvenida" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Entrego credencial?" max_length="40" name="u_slx_entrega_credencial" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Existe foto del colaborador?" max_length="40" name="u_slx_existe_foto_colaborador" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de entrega de ropa" max_length="40" name="u_slx_fecha_entrega_ropa" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de envío de Kit" max_length="40" name="u_slx_fecha_envio_kit" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿El Kit fue enviado?" max_length="40" name="u_slx_kit_enviado" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="¿Quién recibió ropa y EPP de nuevo colaborador?" max_length="40" name="u_slx_quien_recibe_ropa_epp" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="¿Quién recibió la credencial?" max_length="100" name="u_slx_quien_recibio_credencial" type="string"/>
+        <element attributes="encode_utf8=false" label="Requerimiento" max_length="32" name="u_slx_ritm" read_only="true" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Solicito los datos de nuevo colaborador?" max_length="40" name="u_slx_solicito_datos" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="sí"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Solicito foto de credencial a nuevo colaborador?" max_length="40" name="u_slx_solicito_foto_colaborador" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="na"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Envió notificación solicitando fotografía de credencial?" max_length="40" name="u_slx_solicitud_foto_credencial" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Valido talla de ropa y EPP?" max_length="40" name="u_slx_validacion_talla_ropa" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="na"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Valido lugar de ingreso de nuevo colaborador?" max_length="40" name="u_slx_valida_lugar_ingreso" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="na"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="¿Valido hora de ingreso?" max_length="40" name="u_slx_valido_hora_ingreso" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="na"/>
+            </choice>
+        </element>
+    </element>
+</database>

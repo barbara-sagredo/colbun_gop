@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b66962111b6fa11097eaea4fe54bcb62" extends="x_lbsa_gop_persona" label="Colaborador" max_length="40" name="x_lbsa_gop_colaborador" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Área" mandatory="true" max_length="40" name="u_slx_area" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Cargo" mandatory="true" max_length="200" name="u_slx_cargo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Corporativo" max_length="100" name="u_slx_emailcorporativo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de Ingreso" mandatory="true" max_length="40" name="u_slx_fecha_ingreso" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de termino" max_length="40" name="u_slx_fecha_termino" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Gerencia" mandatory="true" max_length="40" name="u_slx_gerencia" reference="cmn_department" reference_qual="nameSTARTSWITHgerencia^ORnameSTARTSWITHgcia^EQ" reference_qual_condition="nameSTARTSWITHgerencia^ORnameSTARTSWITHgcia^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Nombre jefe Directo" mandatory="true" max_length="32" name="u_slx_jefe_directo" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_slx_lugar" choice_table="x_lbsa_gop_req_gop" label="Lugar" mandatory="true" max_length="40" name="u_slx_lugar" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_slx_tipo_contrato" choice_table="x_lbsa_gop_req_gop" label="Tipo de Contrato" mandatory="true" max_length="40" name="u_slx_tipo_contrato" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>

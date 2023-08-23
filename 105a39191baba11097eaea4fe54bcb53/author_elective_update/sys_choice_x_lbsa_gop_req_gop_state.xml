@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_lbsa_gop_req_gop" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_lbsa_gop_req_gop</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:06:45</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_choice_x_lbsa_gop_req_gop_state</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:06:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>es</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:06:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11751f5a1b28b9107c132170f54bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:06:52</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:06:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23651f5a1b28b9107c132170f54bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:06:45</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En Progreso</label>
+            <language>es</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:07:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da859f5a1b28b9107c132170f54bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:07:12</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:07:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d859f5a1b28b9107c132170f54bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:07:08</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cerrado Completo</label>
+            <language>es</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:07:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f95df5a1b28b9107c132170f54bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:07:35</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Close Complete</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8a5df5a1b28b9107c132170f54bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:07:38</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cerrado Incompleto</label>
+            <language>es</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:07:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9b5939a1b28b9107c132170f54bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:07:57</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:07:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9a5139a1b28b9107c132170f54bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:07:43</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancel</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>160</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:08:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74d5d39a1b28b9107c132170f54bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:08:28</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelado</label>
+            <language>es</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>160</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-11 20:08:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bc5939a1b28b9107c132170f54bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-11 20:08:23</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

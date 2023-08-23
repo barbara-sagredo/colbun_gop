@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Gestión de Activos</display>
+        <metric display_value="S4 Hana">5f215d0c1b30f1107c132170f54bcbf6</metric>
+        <normalization_input>480</normalization_input>
+        <order>480</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:58:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa41114c1b30f1107c132170f54bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gestión de Activos</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_aa41114c1b30f1107c132170f54bcbaa</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:58:47</sys_updated_on>
+        <unselected_image/>
+        <value>480</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=aa41114c1b30f1107c132170f54bcbaa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_aa41114c1b30f1107c132170f54bcbaa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Gestión de Activos</display><metric display_value="S4 Hana">5f215d0c1b30f1107c132170f54bcbf6</metric><normalization_input>480</normalization_input><order>480</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:58:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aa41114c1b30f1107c132170f54bcbaa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gestión de Activos</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_aa41114c1b30f1107c132170f54bcbaa</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:58:47</sys_updated_on><unselected_image/><value>480</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=aa41114c1b30f1107c132170f54bcbaa"/></record_update>]]></payload>
+        <payload_hash>-1129408798</payload_hash>
+        <record_name>Gestión de Activos</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:58:47</sys_created_on>
+        <sys_id>e641114c1b30f1107c132170f54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0024d0f30000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:58:47</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>ee41114c7230f110863a39b7384f6fae</update_guid>
+        <update_guid_history>ee41114c7230f110863a39b7384f6fae:-1129408798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Gestión de Activos">42e7ad401bb0f1107c132170f54bcb5d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 22:37:36</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>16746704b16549db89adb5aee98725c1</sys_id>
+        <sys_metadata>aa41114c1b30f1107c132170f54bcbaa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gestión de Activos</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_aa41114c1b30f1107c132170f54bcbaa</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_aa41114c1b30f1107c132170f54bcbaa">e641114c1b30f1107c132170f54bcbaf</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 22:37:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

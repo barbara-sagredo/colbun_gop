@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="DELETE">
+        <active>true</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>false</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="Contacto con Nuevo Colaborador">536f54be1bb7a51097eaea4fe54bcbdc</category>
+        <cond_question/>
+        <condition/>
+        <context/>
+        <correct_answer/>
+        <correct_answer_checkbox>1</correct_answer_checkbox>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno>1</correct_answer_yesno>
+        <custom_metric/>
+        <datatype>checkbox</datatype>
+        <default_value_field/>
+        <depends_on/>
+        <description/>
+        <details/>
+        <displayed_when/>
+        <displayed_when_checkbox>1</displayed_when_checkbox>
+        <displayed_when_template/>
+        <displayed_when_yesno>1</displayed_when_yesno>
+        <duration/>
+        <field_validation/>
+        <mandatory>false</mandatory>
+        <max>1</max>
+        <max_weight/>
+        <maximum_normalization_input>false</maximum_normalization_input>
+        <method>assessment</method>
+        <metric_type display_value="Contacto con Nuevo Colaborador">c19e987e1bb7a51097eaea4fe54bcb7d</metric_type>
+        <min>0</min>
+        <name>grupo</name>
+        <order>100</order>
+        <plugin/>
+        <question>grupo</question>
+        <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
+        <reference_table>sys_user_group</reference_table>
+        <scale>low</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available: 
+ // - primary: contains the sys_id of the assessable object to be evaluated 
+ // - string_result: the script sets the display string value for this metric to this variable 
+ // - actual_result: the script sets the actual value for this metric to this variable 
+ // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable 
+ // 
+ // For example:
+ // var gr = new GlideRecord('cmdb_ci');
+ // gr.addQuery('manufacturer', primary);
+ // gr.query();
+ // actual_result = gr.getRowCount();
+ // string_result = actual_result + '';
+ // if (actual_result &gt; 100) scaled_result = 5;
+ // else scaled_result = 1;]]></script>
+        <source_field/>
+        <string_option>short</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:24:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>653981041b30f1107c132170f54bcbca</sys_id>
+        <sys_mod_count>125</sys_mod_count>
+        <sys_name>grupo</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_653981041b30f1107c132170f54bcbca</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:29:10</sys_updated_on>
+        <template/>
+        <value_parameters/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="DELETE" query="documentkey=653981041b30f1107c132170f54bcbca"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_653981041b30f1107c132170f54bcbca</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="asmt_metric"&gt;&lt;asmt_metric action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_info_label&gt;Additional Information&lt;/add_info_label&gt;&lt;allow_add_info&gt;false&lt;/allow_add_info&gt;&lt;allow_not_applicable&gt;false&lt;/allow_not_applicable&gt;&lt;auto_gen&gt;false&lt;/auto_gen&gt;&lt;category display_value="Contacto con Nuevo Colaborador"&gt;536f54be1bb7a51097eaea4fe54bcbdc&lt;/category&gt;&lt;cond_question/&gt;&lt;condition/&gt;&lt;context/&gt;&lt;correct_answer/&gt;&lt;correct_answer_checkbox&gt;1&lt;/correct_answer_checkbox&gt;&lt;correct_answer_choice/&gt;&lt;correct_answer_template/&gt;&lt;correct_answer_yesno&gt;1&lt;/correct_answer_yesno&gt;&lt;custom_metric/&gt;&lt;datatype&gt;checkbox&lt;/datatype&gt;&lt;default_value_field/&gt;&lt;depends_on/&gt;&lt;description/&gt;&lt;details/&gt;&lt;displayed_when/&gt;&lt;displayed_when_checkbox&gt;1&lt;/displayed_when_checkbox&gt;&lt;displayed_when_template/&gt;&lt;displayed_when_yesno&gt;1&lt;/displayed_when_yesno&gt;&lt;duration/&gt;&lt;field_validation/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max&gt;1&lt;/max&gt;&lt;max_weight/&gt;&lt;maximum_normalization_input&gt;false&lt;/maximum_normalization_input&gt;&lt;method&gt;assessment&lt;/method&gt;&lt;metric_type display_value="Contacto con Nuevo Colaborador"&gt;c19e987e1bb7a51097eaea4fe54bcb7d&lt;/metric_type&gt;&lt;min&gt;0&lt;/min&gt;&lt;name&gt;grupo&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;plugin/&gt;&lt;question&gt;grupo&lt;/question&gt;&lt;randomize_answers&gt;false&lt;/randomize_answers&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;reference_table&gt;sys_user_group&lt;/reference_table&gt;&lt;scale&gt;low&lt;/scale&gt;&lt;scored&gt;false&lt;/scored&gt;&lt;script&gt;&lt;![CDATA[// The following variables are available: 
+ // - primary: contains the sys_id of the assessable object to be evaluated 
+ // - string_result: the script sets the display string value for this metric to this variable 
+ // - actual_result: the script sets the actual value for this metric to this variable 
+ // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable 
+ // 
+ // For example:
+ // var gr = new GlideRecord('cmdb_ci');
+ // gr.addQuery('manufacturer', primary);
+ // gr.query();
+ // actual_result = gr.getRowCount();
+ // string_result = actual_result + '';
+ // if (actual_result &amp;gt; 100) scaled_result = 5;
+ // else scaled_result = 1;]]&gt;&lt;/script&gt;&lt;source_field/&gt;&lt;string_option&gt;short&lt;/string_option&gt;&lt;sys_class_name&gt;asmt_metric&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-16 20:24:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;653981041b30f1107c132170f54bcbca&lt;/sys_id&gt;&lt;sys_mod_count&gt;125&lt;/sys_mod_count&gt;&lt;sys_name&gt;grupo&lt;/sys_name&gt;&lt;sys_package display_value="GOP" source="x_lbsa_gop"&gt;105a39191baba11097eaea4fe54bcb53&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GOP"&gt;105a39191baba11097eaea4fe54bcb53&lt;/sys_scope&gt;&lt;sys_update_name&gt;asmt_metric_653981041b30f1107c132170f54bcbca&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-16 20:29:10&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;value_parameters/&gt;&lt;weight&gt;10&lt;/weight&gt;&lt;/asmt_metric&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=653981041b30f1107c132170f54bcbca"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2083289774</payload_hash>
+        <record_name>grupo</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:29:11</sys_created_on>
+        <sys_id>708a89441b30f1107c132170f54bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0009b74e0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:29:11</sys_updated_on>
+        <type>Assessment Metric</type>
+        <update_guid>f48a8944d630f110e9c7455e8536efea</update_guid>
+        <update_guid_history>f48a8944d630f110e9c7455e8536efea:-2083289774,b1790904b030f110c561bb3b764420a7:1565995986,bd7909049130f11022508eba07f7dba3:364019226,6d790904ee30f110c335e84e5d1c3c9e:-1944687850,2d790904e830f11065283a45cb858d99:330894590,6d790904c230f110509ff700997b377b:140738940,2d790904c230f1103e1fa70e113bd076:-1383862800,e97909043630f11078b7be0e168fe171:544532976,a97909046b30f1109887c22eeb95e16c:-762762831,69790904b530f11028f9398b4cf63867:-1010782925,617909046b30f11090b797c23df08c56:-1390459167,21790904e830f1106b9653afc7713651:-1913649638,dd7909048c30f11012e9122d2ec0cc4b:1786110900,9d790904b930f1103ee149852241c746:1480226362,5d790904d830f110496c5e52bb9b9e41:-1291396266,9d7909045330f110ac34d66c1f110923:521270622,5d7909049930f110f19148ab43da2e1e:-131800580,1d790904f230f110f1e0ba15a1e54c19:274403931,d9790904ce30f110b871d13112986d14:-1844769509,997909044f30f1105adcb5268726ef0f:679986428,59790904ee30f110221720b82338ef0a:-30949218,197909041230f1103edd2e25e1307e05:1087344342,c57909044030f1104a8a630cc8d5bc00:-1800007174,8579c5049a30f1103005d9cb761226fb:1436837812,4579c5047730f110e9d51e20dc4acdf6:668037722,0579c5049d30f110d014958402374bf1:1728466838,c179c5045a30f1109edbf56b177906ec:-446795629,8179c5047d30f1108cbe94aea2e395e7:-1562782383,4179c504a630f1105d4add280036d7e2:1484542011,0179c5041e30f1109bf5423babf324dd:-1807860613,cd79c5042630f1105b354814483f77d7:253979772,8d79c5049e30f11016255551c37859d2:-919871426,4d79c504ed30f1106518ee98989d41cd:-264493418,0d79c504fe30f110a2a59ae6df82c6c8:680206810,c979c5043e30f11087aacd60e33141c3:-840831052,b879c504a030f1105d390e90929848be:-2072546694,7879c5049a30f110bdb8d03aaf7363b9:-1475033130,3879c5042730f11012c5ab17177ef9b4:181756147,f479c504c330f11004221498cfc4a3af:996575644,b479c5047330f110fcf48f074d3dc7aa:-713982810,7479c504bb30f11066aa8342d2adfda5:-174333690,3479c504a730f110d9b49521753ebda0:-2100422660,f079c504c430f110d01a2be11ee39e9b:557777886,b079c5042430f110d4c6d90a8c4ad796:750240342,b879c5045f30f1105f2c073639643184:1232025018,7879c5048d30f110e9e0486a185d127f:1641793407,3879c5044d30f110fdc013d19adff17a:717115706,e479c504c230f11005fcfcee326d7875:851713718,a479c5049230f110a8bb5b6bf26cfc70:2045587443,6479c504e630f11042b8d34895f5076b:3769585,2479c5046e30f1106bb4dbadf9ca0e66:1414949243,e079c5045b30f1109de5e81b8967b961:300750950,e879c5046330f11042a7804789cf414f:-2088253572,a879c5042530f1107ce118910ddb064a:107031422,6879c5042e30f110dbf4464600e8b145:-2064667167,2879c504d130f1108423fd937fbdf040:-2045798043,e479c504c630f110e7dbd2492fffac3b:-197699713,ec79c504ac30f1106273d72307e59929:-1585292966,ac79c504e330f1109db382f3879c1f24:480111297,6c79c504d330f110e2c3688d1c6dc41f:1211069470,1c79c504e330f110dbc7fe011949221a:-1293663940,d879c5048030f110f161abee9a35ce15:424553659,9879c5041d30f110be4f04c6b260e110:38371675,5879c5042e30f1109b9d9d77a73b330b:1481418897,1879c5042c30f1102295dd3f82183a06:1312542846,d479c504c230f11082c24d851d6b3a01:-611757663,947985043830f110a93c28b009c32efc:-285850598,547985046e30f1102d118a471e6e69f7:-801913313,14798504b430f110869fc947fb34a3f2:1642545178,d07985045c30f1105f038bfda01a24ed:-1049933407,90798504bf30f110013425e78e2cb2e8:-781890786,507985043730f11015e82cc0d2fea6e3:545427548,007985047630f110ff85792fd20b99de:1800729595,cc7985042d30f11095c09e3b6b3d76d8:951632059,8c7985042830f110626ea55359f424d3:30518236,4c7985048130f1106acee030cb19c6ce:1299972126,44798504fa30f11007c9c572564d26bd:-1797557567,047985046b30f1100d72d4f76b73f7b8:-1934566054,c07985046f30f11044d30d6fc760c5b3:1381422975,4c798504f630f1107b04b6f78f7c6188:-932001382,0c798504af30f110687fff11e2cb8783:207571777,c87985044230f1102fbedb2e4135f67e:782652339,88798504e730f1104e60ab6ad391b879:-254190372,48798504e530f110d5de14ffff920874:1853656113,3b698504d630f110124d137f96c1e96f:-1359602468,f76985046b30f110f3a581551569a76a:1551335453,b76985049d30f11099d7def0f5503165:-1167140012,776985044f30f110a7527a9bf406f660:-432617961,7f698504d130f110fd7474aee16a384e:-1032542000,3f698504c230f1103c1b87d92649b349:1820531477,fb6985048d30f110552d7e9e1a96ca44:1437913371,bb698504af30f11043d7f70d678f7a3f:-279150825,7b698504ba30f110e8fca2c6f83c203a:-2068231308,3b698504c330f1103fc8e10357a2e335:-1666744078,f76985048030f110ddbcba834c102f30:-1337273135,b76985041830f110bda95d540440552b:-718479972,776985040f30f1106f992c33b40c7326:-664179406,276985041f30f110ac2b427ca1af3021:-1451848620,e36985049e30f1104cb425fe39cdb81c:-1180242121,a36985048430f110780487c66cff0817:150640091,636985048430f110a220da2905eee112:147076213,236985049b30f110813b48ca5a6d470d:71496048,ef6985044430f110ac8bb9e1e23af207:285238103,af6985042a30f110c938dc9186be4202:-1966757932,6f6945049530f11076be40e17c9c9bfd:-2028186254,2f6945043b30f110468128ec2427e3f8:2133336433,276945047c30f110d5b2c3b82f7fe9e7:-1235799759,e36945046630f110135fd54b16f62fe2:749307058,936945045230f11025e73cd377effedd:1399967785,536945040a30f11084e5f7291a6d47d8:1208658732,136945040d30f110ac5649b53029fed3:2076625392,1b6945043b30f110503a92a038b14fc1:-291099531,d76945042b30f110d250e14f3141febc:-829595248,976945041f30f11031bb0ba8dada97b7:-1078768745,576945041e30f110f96e25ab47cb05b2:2144958643,176945040930f110a92b42cdc26f67ad:-280630724,d36945047e30f110decbc9c53c334ba8:-876990885,936945044530f110fdefeedb8d30e4a3:-414075333,536945047530f110867acd3f116c209e:1108115932,136945040430f1107107a2d3fbc20999:-605384386,df694504c230f1105d220e41b4762893:-1259608991,8f6945045130f1108b4227cb429f7d8e:-84604390,4f6945044930f11094ef2f7708b6c689:1379722431,0f6945045030f1100ae462691bafeb84:378311162,cb6945046130f110ee2c904f9f38677f:-1727560041,0f6945046630f11055f7f647c17cff61:-610419884,cb6945046f30f110937dbe827a025f5c:1565995986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="grupo">0ada81841b30f1107c132170f54bcbaa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:30:38</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric">asmt_metric</sys_db_object>
+        <sys_id>51f8698838bc4233bf9317994ca4fa79</sys_id>
+        <sys_metadata>653981041b30f1107c132170f54bcbca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>grupo</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_653981041b30f1107c132170f54bcbca</sys_update_name>
+        <sys_update_version display_value="asmt_metric_653981041b30f1107c132170f54bcbca">708a89441b30f1107c132170f54bcbeb</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:30:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="371e41481b30f1107c132170f54bcb86" extends="sys_import_set_row" label="Imp Tmpl X Lbsa Gop Cursos Colbun" max_length="40" name="u_imp_tmpl_x_lbsa_gop_cursos_colbun" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="255" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tipo" label="Tipo" max_length="40" name="u_tipo" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_lugar" table="x_lbsa_gop_req_gop" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_lugar</element>
+            <name>x_lbsa_gop_req_gop</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-22 20:28:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_lugar</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_choice_x_lbsa_gop_req_gop_u_slx_lugar</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-22 20:28:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_lugar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Casa Matriz</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-22 20:28:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79ca359e1bafe1107c132170f54bcbd6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-22 20:28:23</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_lugar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Centrales</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-22 20:28:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3adab19e1bafe1107c132170f54bcbad</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-22 20:28:36</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_lugar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proyectos</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-22 20:28:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bea759e1bafe1107c132170f54bcbef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-22 20:28:49</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

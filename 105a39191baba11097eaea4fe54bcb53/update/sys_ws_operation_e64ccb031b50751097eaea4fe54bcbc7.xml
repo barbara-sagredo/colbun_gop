@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>crear_nuevo_proceso</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+    var dataOb = request.body.data;
+
+
+    var error = new sn_ws_err.ServiceError();
+
+    if (!dataOb.nombreCompleto) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Nombre Completo se encuentra vacio.");
+        return error;
+    }
+
+
+    if (!dataOb.rut) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de RUT se encuentra vacio");
+        return error;
+    }
+
+    if (!dataOb.lugar) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Lugar se encuentra vacio");
+        return error;
+    }
+    if (!dataOb.fechaIngreso) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Fecha de Ingreso se encuentra vacio");
+        return error;
+    }
+
+    if (!dataOb.contrato) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Contrato se encuentra vacio");
+        return error;
+    } else {
+
+        var tipoContrato = "";
+        if (dataOb.contrato == 'Plazo Fijo') {
+            tipoContrato = "1";
+        } else if (dataOb.contrato == 'Indefinido') {
+            tipoContrato = "2";
+        } else if (dataOb.contrato == 'Practica') {
+            tipoContrato = "3";
+        }
+    }
+
+    if (!dataOb.jefeDirecto) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Jefe se encuentra vacio");
+        return error;
+    } else {
+        var jefe = new GlideRecord("sys_user");
+        jefe.addQuery("user_name", dataOb.jefeDirecto.toString());
+        jefe.query();
+        if (jefe.next()) {
+            var jefatura = jefe.sys_id;
+        }
+
+    }
+
+    if (dataOb.contrato.toString() == "Plazo Fijo") {
+        if (!dataOb.fechaTermino) {
+            //Control de Error al recibir datos vacios
+            error.setStatus(500);
+            error.setMessage("Datos Vacios");
+            error.setDetail("Dato de Fecha de Termino se encuentra vacio");
+            return error;
+        } else {
+            var termino = dataOb.fechaTermino;
+        }
+    }
+
+    if (!dataOb.emailPersonal) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Email Personal se encuentra vacio");
+        return error;
+    }
+
+    if (!dataOb.gerencia) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Gerencia se encuentra vacio");
+        return error;
+    }
+    if (!dataOb.area) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Área se encuentra vacio");
+        return error;
+    }
+    if (!dataOb.cargo) {
+        //Control de Error al recibir datos vacios
+        error.setStatus(500);
+        error.setMessage("Datos Vacios");
+        error.setDetail("Dato de Cargo se encuentra vacio");
+        return error;
+    }
+
+
+    try {
+
+        var colaborador = new GlideRecord("x_lbsa_gop_colaborador");
+        colaborador.initialize();
+        colaborador.name = dataOb.nombreCompleto.toString();
+        colaborador.u_slx_tipo_contrato = tipoContrato;
+        colaborador.u_slx_rut = dataOb.rut.toString();
+        colaborador.u_slx_fecha_ingreso = dataOb.fechaIngreso;
+        if (termino != "") colaborador.u_slx_fecha_termino = termino;
+        colaborador.u_slx_email_personal = dataOb.emailPersonal.toString();
+        colaborador.u_slx_jefe_directo = jefatura;
+        colaborador.u_slx_lugar = dataOb.lugar.toString();
+        colaborador.u_slx_gerencia = dataOb.jefeDirecto.toString();
+        colaborador.u_slx_area = dataOb.lugar.toString();
+        colaborador.u_slx_cargo = dataOb.cargo.toString();
+        colaborador.insert(); //Inserta nuevo colaborador
+
+
+        //crear requerimiento gop
+
+        var gop = new GlideRecord('x_lbsa_gop_req_gop');
+        gop.initialize();
+        gop.u_slx_colaborador = colaborador.sys_id;
+        gop.u_slx_jefe_directo = colaborador.u_slx_jefe_directo;
+        gop.u_slx_tipo_contrato = colaborador.u_slx_tipo_contrato;
+        gop.u_slx_responsable_proceso = colaborador.u_slx_jefe_directo;
+        gop.u_slx_lugar = colaborador.u_slx_lugar;
+		gop.state=2;
+        gop.contact_type = 'integration';
+        gop.insert();
+
+
+        var diaTrasladoVar = new GlideRecord('item_option_new');
+        diaTrasladoVar.get(gs.getProperty('x_lbsa_gop.variable.dias.traslado'));
+
+
+        var diasTraslado = new GlideRecord('question_answer');
+        diasTraslado.initialize();
+        diasTraslado.table_name = 'x_lbsa_gop_req_gop';
+        diasTraslado.table_sys_id = gop.sys_id;
+        diasTraslado.question =gs.getProperty('x_lbsa_gop.variable.dias.traslado');
+        diasTraslado.order = 2500;
+        diasTraslado.value = -5;
+        diasTraslado.insert();
+
+        //diaTrasladoVar.default_value
+
+        var diaRecibirVar = new GlideRecord('item_option_new');
+        diaRecibirVar.get(gs.getProperty('x_lbsa_gop.variable.dias.recibir'));
+
+
+        var diasRecibir = new GlideRecord('question_answer');
+        diasRecibir.initialize();
+        diasRecibir.table_name = 'x_lbsa_gop_req_gop';
+        diasRecibir.table_sys_id = gop.sys_id;
+        diasRecibir.question = gs.getProperty('x_lbsa_gop.variable.dias.recibir');
+        diasRecibir.order = 2000;
+        diasRecibir.value = -1;
+        diasRecibir.insert();
+        //diaRecibirVar.default_value
+        ///////////////////////////
+		
+		var diaEncuestaVar = new GlideRecord('item_option_new');
+        diaEncuestaVar.get(gs.getProperty('x_lbsa_gop.variable.dias.encuesta'));
+
+
+        var diasEncuesta = new GlideRecord('question_answer');
+        diasEncuesta.initialize();
+        diasEncuesta.table_name = 'x_lbsa_gop_req_gop';
+        diasEncuesta.table_sys_id = gop.sys_id;
+        diasEncuesta.question = gs.getProperty('x_lbsa_gop.variable.dias.encuesta');
+        diasEncuesta.order = 2500;
+        diasEncuesta.value = 10;
+        diasEncuesta.insert();
+
+
+
+
+        var fechaRecibir = new GlideDateTime(colaborador.u_slx_fecha_ingreso.toString() + " 13:00:00");
+        var diasRecibirN = Number(diasRecibir.value);
+        fechaRecibir.addDaysLocalTime(diasRecibirN);
+
+        var fechaTraslado = new GlideDateTime(colaborador.u_slx_fecha_ingreso.toString() + " 13:00:00");
+        var diasTrasladoN = Number(diasTraslado.value);
+
+        fechaTraslado.addDaysLocalTime(diasTrasladoN);
+		
+		
+		var fechaEncuesta = new GlideDateTime(colaborador.u_slx_fecha_ingreso.toString() + " 13:00:00");
+        var diasEncuestaN = Number(diasEncuesta.value);
+
+        fechaEncuesta.addDaysLocalTime(diasEncuestaN);
+
+
+
+
+        var sched = new GlideSchedule(gs.getProperty('x_lbsa_gop.calendario.gop'));
+        var date = new GlideDateTime(fechaRecibir);
+
+
+
+        while (!sched.isInSchedule(fechaRecibir)) {
+            fechaRecibir.addDaysLocalTime(-1);
+
+        }
+
+
+        while (!sched.isInSchedule(fechaTraslado)) {
+            fechaTraslado.addDaysLocalTime(-1);
+
+        }
+		
+		while (!sched.isInSchedule(fechaEncuesta)) {
+            fechaEncuesta.addDaysLocalTime(1);
+
+        }
+
+
+
+        var fechaTrasladoVar = new GlideRecord('question_answer');
+        fechaTrasladoVar.initialize();
+        fechaTrasladoVar.table_name = 'x_lbsa_gop_req_gop';
+        fechaTrasladoVar.table_sys_id = gop.sys_id;
+        fechaTrasladoVar.question = gs.getProperty('x_lbsa_gop.variable.fecha.traslado');
+        fechaTrasladoVar.order = 1000;
+        fechaTrasladoVar.value = fechaTraslado;
+        fechaTrasladoVar.insert();
+
+
+
+        var fechaRecibirVar = new GlideRecord('question_answer');
+        fechaRecibirVar.initialize();
+        fechaRecibirVar.table_name = 'x_lbsa_gop_req_gop';
+        fechaRecibirVar.table_sys_id = gop.sys_id;
+        fechaRecibirVar.question = gs.getProperty('x_lbsa_gop.variable.fecha.recibir');
+        fechaRecibirVar.order = 1500;
+        fechaRecibirVar.value = fechaRecibir;
+        fechaRecibirVar.insert();
+		
+		
+		var fechaEncuestaVar = new GlideRecord('question_answer');
+        fechaEncuestaVar.initialize();
+        fechaEncuestaVar.table_name = 'x_lbsa_gop_req_gop';
+        fechaEncuestaVar.table_sys_id = gop.sys_id;
+        fechaEncuestaVar.question = gs.getProperty('x_lbsa_gop.variable.fecha.encuesta');
+        fechaEncuestaVar.order = 2600;
+        fechaEncuestaVar.value = fechaEncuesta;
+        fechaEncuestaVar.insert();
+
+        var grGop = new GlideRecord("x_lbsa_gop_req_gop");
+        grGop.addQuery("sys_id", gop.sys_id);
+        grGop.query();
+        if (grGop.next()) {
+			
+			grGop.u_slx_flujo=true;
+			grGop.update();
+
+        }
+
+
+
+
+    } catch (ex) {
+        var error = new sn_ws_err.ServiceError();
+        error.setStatus(400);
+        error.setMessage("Bad Request");
+        error.setDetail("error with request");
+        return error;
+    }
+
+
+    //Envia un mensaje de respuesta existoso
+    return {
+        "Status": "201 – " + gop.number
+    };
+
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_lbsa_gop/slx_proceso_ob/crear_nuevo_proceso</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/crear_nuevo_proceso</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-01 17:26:46</sys_created_on>
+        <sys_id>e64ccb031b50751097eaea4fe54bcbc7</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>crear_nuevo_proceso</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_ws_operation_e64ccb031b50751097eaea4fe54bcbc7</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 15:38:51</sys_updated_on>
+        <web_service_definition display_value="slx_proceso_ob">d81c47031b50751097eaea4fe54bcb8b</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

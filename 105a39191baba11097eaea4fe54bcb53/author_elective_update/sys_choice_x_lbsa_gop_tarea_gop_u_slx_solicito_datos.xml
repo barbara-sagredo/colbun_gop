@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_solicito_datos" table="x_lbsa_gop_tarea_gop" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_solicito_datos</element>
+            <name>x_lbsa_gop_tarea_gop</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-17 20:44:31</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_solicito_datos</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_choice_x_lbsa_gop_tarea_gop_u_slx_solicito_datos</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-17 20:44:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_solicito_datos</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sí</label>
+            <language>en</language>
+            <name>x_lbsa_gop_tarea_gop</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-17 20:44:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>915ee2d61b04315097eaea4fe54bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-17 20:44:31</sys_updated_on>
+            <value>sí</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_solicito_datos</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_lbsa_gop_tarea_gop</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-17 20:44:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>595ee2d61b04315097eaea4fe54bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-17 20:44:31</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

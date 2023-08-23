@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_lbsa_gop_tarea_gop" relationship="" sys_domain="global" table="asmt_assessment_instance_question" version="2" view="respuestas">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>add_info</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:44</sys_created_on>
+            <sys_id>7f6389f61b3ba51097eaea4fe54bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:44</sys_created_on>
+            <sys_id>ff6389f61b3ba51097eaea4fe54bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>instance</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:44</sys_created_on>
+            <sys_id>736389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>is_hidden</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:45</sys_created_on>
+            <sys_id>f36389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>metric</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:45</sys_created_on>
+            <sys_id>776389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>metric_definition</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:45</sys_created_on>
+            <sys_id>f76389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>metric_type_group</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:45</sys_created_on>
+            <sys_id>7b6389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reference_id</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:45</sys_created_on>
+            <sys_id>fb6389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source_id</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:45</sys_created_on>
+            <sys_id>7f6389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source_table</element>
+            <list_id display_value="asmt_assessment_instance_question" element="NULL" name="asmt_assessment_instance_question" parent="x_lbsa_gop_tarea_gop" relationship="NULL" sys_domain="global" view="b76389f61b3ba51097eaea4fe54bcb30">b36389f61b3ba51097eaea4fe54bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:45</sys_created_on>
+            <sys_id>ff6389f61b3ba51097eaea4fe54bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>asmt_assessment_instance_question</name>
+            <parent>x_lbsa_gop_tarea_gop</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-07-06 15:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b36389f61b3ba51097eaea4fe54bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>asmt_assessment_instance_question</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_ui_list_asmt_assessment_instance_question_x_lbsa_gop_tarea_gop_respuestas</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-07-06 15:58:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Respuestas" name="respuestas">b76389f61b3ba51097eaea4fe54bcb30</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

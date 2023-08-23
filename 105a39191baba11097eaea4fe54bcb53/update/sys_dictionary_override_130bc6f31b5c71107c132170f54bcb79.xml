@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>x_lbsa_gop_req_gop</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>current.parent.u_slx_colaborador&#13;
+</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>u_slx_colaborador</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_lbsa_gop_tarea_gop</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-03 20:17:18</sys_created_on>
+        <sys_id>130bc6f31b5c71107c132170f54bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_colaborador</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_dictionary_override_130bc6f31b5c71107c132170f54bcb79</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-03 20:17:18</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

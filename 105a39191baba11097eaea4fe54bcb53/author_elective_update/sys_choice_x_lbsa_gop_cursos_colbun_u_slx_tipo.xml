@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_tipo" table="x_lbsa_gop_cursos_colbun" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_tipo</element>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_tipo</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_choice_x_lbsa_gop_cursos_colbun_u_slx_tipo</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf9c4dc41b30f1107c132170f54bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>general</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auditoría</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb9c4dc41b30f1107c132170f54bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>auditoría</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Seguridad y Salud Ocupacional</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb9c4dc41b30f1107c132170f54bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>seguridad_salud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TI</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b9c4dc41b30f1107c132170f54bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>ti</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b9c4dc41b30f1107c132170f54bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>legal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bienestar</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f79c4dc41b30f1107c132170f54bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>bienestar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Academia Técnica</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b79c4dc41b30f1107c132170f54bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>academia_tecnica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>S4 Hana</label>
+            <language>en</language>
+            <name>x_lbsa_gop_cursos_colbun</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-16 20:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>779c4dc41b30f1107c132170f54bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-16 20:38:23</sys_updated_on>
+            <value>s4_hana</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

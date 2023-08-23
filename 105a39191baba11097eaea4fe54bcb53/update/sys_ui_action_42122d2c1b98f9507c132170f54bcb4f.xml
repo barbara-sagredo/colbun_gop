@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>slx_cancelar</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.active==true &amp;&amp; current.sys_class_name=='x_lbsa_gop_req_gop'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>destructive</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Cancelar</name>
+        <onclick>cancelar()</onclick>
+        <order>100</order>
+        <script><![CDATA[function cancelar() {
+
+
+    var short_text = "Recuerde argumentar la cancelación con comentarios internos.";
+    //Initialize and open the Dialog Window
+
+    var dialog = new GlideDialogWindow("x_lbsa_gop_task_comments_dialog");
+    dialog.setTitle("Cancelación de Requerimiento"); //Set the dialog title
+    dialog.setPreference("short_text", short_text);
+    dialog.setSize(500, 500);
+    dialog.render(); //Open the dialog
+
+    g_form.setMandatory('work_notes', true);
+    var notes = g_form.getValue('work_notes');
+    if (notes != '') {
+        var gop = g_form.getUniqueValue();
+
+        var sp = new GlideAjax("x_lbsa_gop.slx_actualizar_gop");
+        sp.addParam("sysparm_name", "cancelarGop");
+        sp.addParam("sysparm_gop", gop);
+        sp.getXML(callback);
+    }
+
+}
+
+function callback(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    if (answer == 200 || answer == '200') {
+        gsftSubmit(null, g_form.getFormElement(), 'slx_cancelar');
+    } else {
+        //g_form.addErrorMessage('Ocurrio un error al intentar aprobar, favor contactarse con el administrador');
+    }
+
+
+}
+
+
+// //Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if (typeof window == 'undefined')
+    updateTask();
+
+function updateTask() {
+    //current.state = 3;
+    current.update();
+    action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-07-24 15:06:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42122d2c1b98f9507c132170f54bcb4f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cancelar</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_ui_action_42122d2c1b98f9507c132170f54bcb4f</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-07-28 14:16:21</sys_updated_on>
+        <table>x_lbsa_gop_req_gop</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

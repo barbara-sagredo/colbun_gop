@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_lbsa_gop_req_gop</collection>
+        <condition table="x_lbsa_gop_req_gop">u_slx_lugar=1^EQ<item display_value="Casa Matriz" endquery="false" field="u_slx_lugar" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-userformat="{&quot;2&quot;:14773,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Estimado/a (XX Candidato) te recuerdo la informaci&oacute;n para tu primer d&iacute;a: \n1.      Debes llegar a la oficina a las XX.00 hrs, que est&aacute; ubicada Apoquindo 4775, Las Condes. Y dirigirte al piso XX.\n2.      All&iacute; debes preguntar por Xx Xx (jefe / tutor), quien te estar&aacute; esperando. \n3.      Este d&iacute;a te dar&aacute; la bienvenida a la empresa y entregar&aacute;n tu kit de inducci&oacute;n, credencial y computador.  \n4.      Adem&aacute;s recibir&aacute;s un correo m&iacute;o, con indicaciones de carga de documentos a nuestro sistema, cursos de inducci&oacute;n y otros detalles. \n5.      El horario de trabajo general es de 8.30 a 18.30 de lunes a jueves. Y los d&iacute;as viernes hasta a las 13.30 hrs. Los d&iacute;as presenciales son de martes a jueves, y teletrabajo lunes y viernes. \n \nTe esperamos!  \n\nSaludos, XX Reclutadora&quot;}">Estimado/a ${u_slx_colaborador} te recuerdo la informaci&oacute;n para tu primer d&iacute;a:</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-userformat="{&quot;2&quot;:14773,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Estimado/a (XX Candidato) te recuerdo la informaci&oacute;n para tu primer d&iacute;a: \n1.      Debes llegar a la oficina a las XX.00 hrs, que est&aacute; ubicada Apoquindo 4775, Las Condes. Y dirigirte al piso XX.\n2.      All&iacute; debes preguntar por Xx Xx (jefe / tutor), quien te estar&aacute; esperando. \n3.      Este d&iacute;a te dar&aacute; la bienvenida a la empresa y entregar&aacute;n tu kit de inducci&oacute;n, credencial y computador.  \n4.      Adem&aacute;s recibir&aacute;s un correo m&iacute;o, con indicaciones de carga de documentos a nuestro sistema, cursos de inducci&oacute;n y otros detalles. \n5.      El horario de trabajo general es de 8.30 a 18.30 de lunes a jueves. Y los d&iacute;as viernes hasta a las 13.30 hrs. Los d&iacute;as presenciales son de martes a jueves, y teletrabajo lunes y viernes. \n \nTe esperamos!  \n\nSaludos, XX Reclutadora&quot;}"> <br />1. Debes llegar a la oficina a las XX.00 hrs, que est&aacute; ubicada Apoquindo 4775, Las Condes. Y dirigirte al piso XX.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-userformat="{&quot;2&quot;:14773,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Estimado/a (XX Candidato) te recuerdo la informaci&oacute;n para tu primer d&iacute;a: \n1.      Debes llegar a la oficina a las XX.00 hrs, que est&aacute; ubicada Apoquindo 4775, Las Condes. Y dirigirte al piso XX.\n2.      All&iacute; debes preguntar por Xx Xx (jefe / tutor), quien te estar&aacute; esperando. \n3.      Este d&iacute;a te dar&aacute; la bienvenida a la empresa y entregar&aacute;n tu kit de inducci&oacute;n, credencial y computador.  \n4.      Adem&aacute;s recibir&aacute;s un correo m&iacute;o, con indicaciones de carga de documentos a nuestro sistema, cursos de inducci&oacute;n y otros detalles. \n5.      El horario de trabajo general es de 8.30 a 18.30 de lunes a jueves. Y los d&iacute;as viernes hasta a las 13.30 hrs. Los d&iacute;as presenciales son de martes a jueves, y teletrabajo lunes y viernes. \n \nTe esperamos!  \n\nSaludos, XX Reclutadora&quot;}"><br />2. All&iacute; debes preguntar por ${u_slx_jefe_directo} (jefe / tutor), quien te estar&aacute; esperando.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-userformat="{&quot;2&quot;:14773,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Estimado/a (XX Candidato) te recuerdo la informaci&oacute;n para tu primer d&iacute;a: \n1.      Debes llegar a la oficina a las XX.00 hrs, que est&aacute; ubicada Apoquindo 4775, Las Condes. Y dirigirte al piso XX.\n2.      All&iacute; debes preguntar por Xx Xx (jefe / tutor), quien te estar&aacute; esperando. \n3.      Este d&iacute;a te dar&aacute; la bienvenida a la empresa y entregar&aacute;n tu kit de inducci&oacute;n, credencial y computador.  \n4.      Adem&aacute;s recibir&aacute;s un correo m&iacute;o, con indicaciones de carga de documentos a nuestro sistema, cursos de inducci&oacute;n y otros detalles. \n5.      El horario de trabajo general es de 8.30 a 18.30 de lunes a jueves. Y los d&iacute;as viernes hasta a las 13.30 hrs. Los d&iacute;as presenciales son de martes a jueves, y teletrabajo lunes y viernes. \n \nTe esperamos!  \n\nSaludos, XX Reclutadora&quot;}"> <br />3. Este d&iacute;a te dar&aacute; la bienvenida a la empresa y entregar&aacute;n tu kit de inducci&oacute;n, credencial y computador.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" data-sheets-userformat="{&quot;2&quot;:14773,&quot;3&quot;:{&quot;1&quot;:0,&quot;3&quot;:1},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;10&quot;:1,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Estimado/a (XX Candidato) te recuerdo la informaci&oacute;n para tu primer d&iacute;a: \n1.      Debes llegar a la oficina a las XX.00 hrs, que est&aacute; ubicada Apoquindo 4775, Las Condes. Y dirigirte al piso XX.\n2.      All&iacute; debes preguntar por Xx Xx (jefe / tutor), quien te estar&aacute; esperando. \n3.      Este d&iacute;a te dar&aacute; la bienvenida a la empresa y entregar&aacute;n tu kit de inducci&oacute;n, credencial y computador.  \n4.      Adem&aacute;s recibir&aacute;s un correo m&iacute;o, con indicaciones de carga de documentos a nuestro sistema, cursos de inducci&oacute;n y otros detalles. \n5.      El horario de trabajo general es de 8.30 a 18.30 de lunes a jueves. Y los d&iacute;as viernes hasta a las 13.30 hrs. Los d&iacute;as presenciales son de martes a jueves, y teletrabajo lunes y viernes. \n \nTe esperamos!  \n\nSaludos, XX Reclutadora&quot;}"> <br />4. Adem&aacute;s recibir&aacute;s un correo m&iacute;o, con indicaciones de carga de documentos a nuestro sistema, cursos de inducci&oacute;n y otros detalles. <br />5. El horario de trabajo general es de 8.30 a 18.30 de lunes a jueves. Y los d&iacute;as viernes hasta a las 13.30 hrs. Los d&iacute;as presenciales son de martes a jueves, y teletrabajo lunes y viernes. <br /><br /><strong>Te esperamos!</strong> <br /><br />Saludos, ${u_slx_responsable_proceso} Reclutadora</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX Recordatorio coordinación ingreso CM</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.er</sys_created_by>
+        <sys_created_on>2023-08-07 20:17:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1761f6811be0b5107c132170f54bcbd8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX Recordatorio coordinación ingreso CM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sysevent_email_action_1761f6811be0b5107c132170f54bcbd8</sys_update_name>
+        <sys_updated_by>slx.er</sys_updated_by>
+        <sys_updated_on>2023-08-11 20:55:02</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="slx_induccion_mail">a854e07b1b94311097eaea4fe54bcbd9</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

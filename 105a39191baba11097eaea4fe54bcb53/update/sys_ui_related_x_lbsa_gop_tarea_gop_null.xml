@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_lbsa_gop_tarea_gop" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Tarea de GOP - Default view" name="x_lbsa_gop_tarea_gop" related_list="NULL" sys_domain="global" view="Default view">e1575eca1be4f51097eaea4fe54bcb10</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:868185b61b3ba51097eaea4fe54bcb88</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-10 20:56:58</sys_created_on>
+            <sys_id>e1575eca1be4f51097eaea4fe54bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-10 20:56:58</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Tarea de GOP - Default view" name="x_lbsa_gop_tarea_gop" related_list="NULL" sys_domain="global" view="Default view">e1575eca1be4f51097eaea4fe54bcb10</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:8a75535387cf00107e31af1e36cb0b22</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-10 20:56:58</sys_created_on>
+            <sys_id>e9575eca1be4f51097eaea4fe54bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-10 20:56:58</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Tarea de GOP - Default view" name="x_lbsa_gop_tarea_gop" related_list="NULL" sys_domain="global" view="Default view">e1575eca1be4f51097eaea4fe54bcb10</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:d0b6d2ca1be4f51097eaea4fe54bcb7d</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-10 20:56:58</sys_created_on>
+            <sys_id>ed575eca1be4f51097eaea4fe54bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-10 20:56:58</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Tarea de GOP - Default view</calculated_name>
+            <filter/>
+            <name>x_lbsa_gop_tarea_gop</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-08-10 20:56:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1575eca1be4f51097eaea4fe54bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tarea de GOP - Default view</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_ui_related_x_lbsa_gop_tarea_gop_null</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-08-10 20:56:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

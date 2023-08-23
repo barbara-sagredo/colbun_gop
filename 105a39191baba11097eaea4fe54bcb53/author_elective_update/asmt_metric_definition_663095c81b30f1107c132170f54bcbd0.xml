@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Mantenimiento Legal</display>
+        <metric display_value="Auditoría">d70015c81b30f1107c132170f54bcb10</metric>
+        <normalization_input>230</normalization_input>
+        <order>230</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:54:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>663095c81b30f1107c132170f54bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mantenimiento Legal</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_663095c81b30f1107c132170f54bcbd0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:54:09</sys_updated_on>
+        <unselected_image/>
+        <value>230</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=663095c81b30f1107c132170f54bcbd0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_663095c81b30f1107c132170f54bcbd0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Mantenimiento Legal</display><metric display_value="Auditoría">d70015c81b30f1107c132170f54bcb10</metric><normalization_input>230</normalization_input><order>230</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:54:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>663095c81b30f1107c132170f54bcbd0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mantenimiento Legal</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_663095c81b30f1107c132170f54bcbd0</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:54:09</sys_updated_on><unselected_image/><value>230</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=663095c81b30f1107c132170f54bcbd0"/></record_update>]]></payload>
+        <payload_hash>2024496043</payload_hash>
+        <record_name>Mantenimiento Legal</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:54:09</sys_created_on>
+        <sys_id>a23095c81b30f1107c132170f54bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a002091d00000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:54:09</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>aa3095c83330f11067c5910c4f6c15d4</update_guid>
+        <update_guid_history>aa3095c83330f11067c5910c4f6c15d4:2024496043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mantenimiento Legal">d581554c1b30f1107c132170f54bcb7d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:59:48</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>4d60b09091a243e097e52703ec9e4509</sys_id>
+        <sys_metadata>663095c81b30f1107c132170f54bcbd0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mantenimiento Legal</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_663095c81b30f1107c132170f54bcbd0</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_663095c81b30f1107c132170f54bcbd0">a23095c81b30f1107c132170f54bcbd5</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:59:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

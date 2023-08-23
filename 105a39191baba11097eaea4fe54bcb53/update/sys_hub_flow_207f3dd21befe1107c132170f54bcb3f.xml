@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>5058f9da1bafe1107c132170f54bcb42</copied_from>
+        <copied_from_name>SLX - Tareas GOP Fijo</copied_from_name>
+        <description/>
+        <internal_name>slx__tareas_gop_plazo_fijo</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Requerimiento GOP Record","reference":"x_lbsa_gop_req_gop","reference_display":"Requerimiento GOP","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_slx_lugar","label":"Trigger - Record Created➛Requerimiento GOP Record➛Lugar","reference":"","reference_display":"Lugar","type":"choice","base_type":"choice","parent_table_name":"x_lbsa_gop_req_gop","column_name":"u_slx_lugar","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"Casa Matriz","image":"","reference":false,"rawLabel":"Casa Matriz","selected":false,"missing":false,"value":"1","parameters":{"name":"x_lbsa_gop_req_gop"}},{"used":false,"label":"Centrales","image":"","reference":false,"rawLabel":"Centrales","selected":false,"missing":false,"value":"2","parameters":{"name":"x_lbsa_gop_req_gop"}},{"used":false,"label":"Proyectos","image":"","reference":false,"rawLabel":"Proyectos","selected":false,"missing":false,"value":"3","parameters":{"name":"x_lbsa_gop_req_gop"}}]},{"name":"Created_1.current.u_slx_responsable_proceso","label":"Trigger - Record Created➛Requerimiento GOP Record➛Nombre Responsable del proceso","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_lbsa_gop_req_gop","column_name":"u_slx_responsable_proceso"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>SLX - Tareas GOP Plazo Fijo</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>207f3dd21befe1107c132170f54bcb3f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SLX - Tareas GOP Plazo Fijo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_hub_flow_207f3dd21befe1107c132170f54bcb3f</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=207f3dd21befe1107c132170f54bcb3f^sys_idNOT IN0d7f3dd21befe1107c132170f54bcbd8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>0d7f3dd21befe1107c132170f54bcbd8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:51</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d7f3dd21befe1107c132170f54bcbd8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0d7f3dd21befe1107c132170f54bcbd8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>457f3dd21befe1107c132170f54bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <value>x_lbsa_gop_req_gop</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0d7f3dd21befe1107c132170f54bcbd8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>817f3dd21befe1107c132170f54bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=207f3dd21befe1107c132170f54bcb3f^sys_idNOT IN2c7f3dd21befe1107c132170f54bcb3f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>207f3dd21befe1107c132170f54bcb3f</id>
+        <name>SLX - Tareas GOP Plazo Fijo</name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:17</sys_created_on>
+        <sys_id>2c7f3dd21befe1107c132170f54bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2c7f3dd21befe1107c132170f54bcb3f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=207f3dd21befe1107c132170f54bcb3f^sys_idNOT IN747f3dd21befe1107c132170f54bcb46,787f3dd21befe1107c132170f54bcb94"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</model>
+        <model_id>207f3dd21befe1107c132170f54bcb3f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_207f3dd21befe1107c132170f54bcb3f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>747f3dd21befe1107c132170f54bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</model>
+        <model_id>207f3dd21befe1107c132170f54bcb3f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_207f3dd21befe1107c132170f54bcb3f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>787f3dd21befe1107c132170f54bcb94</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=207f3dd21befe1107c132170f54bcb3f^sys_idNOT IN097f3dd21befe1107c132170f54bcbcb,347f3dd21befe1107c132170f54bcbb4,457f3dd21befe1107c132170f54bcbd1,707f3dd21befe1107c132170f54bcbba,817f3dd21befe1107c132170f54bcbd7,b87f3dd21befe1107c132170f54bcba8,bc7f3dd21befe1107c132170f54bcbbf,c97f3dd21befe1107c132170f54bcbc5,f47f3dd21befe1107c132170f54bcbae"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Coordinación Ingreso nuevo colaborador</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>9</order>
+        <parent_ui_id>3558796b-24a8-421e-8f95-444076f9f7c1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>097f3dd21befe1107c132170f54bcbcb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>5ec4c942-39d7-47f2-9a29-bebada3bd381</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=097f3dd21befe1107c132170f54bcbcb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>097f3dd21befe1107c132170f54bcbcb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>8d7f3dd21befe1107c132170f54bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=097f3dd21befe1107c132170f54bcbcb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>097f3dd21befe1107c132170f54bcbcb</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>0d7f3dd21befe1107c132170f54bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Coordinación Ingreso nuevo colaborador^description=Tomar contacto con nuevo colaborador para:
+Confirmar la fecha de ingreso (en que presencialmente también esté la Jefatura) (en caso de cambios, debe informar a reclutadora) 
+Informar los días de trabajo presencial en oficina y teletrabajo; así como definir bloques horarios.
+En Instalaciones también informar horarios y medios de transporte. se debe especificar un checklist de todo lo que tiene que declarar que hace según su lugar de trabajo (notificaciones, avisos, recibir cosas, ver espacios/puesto, cursos, etc.)
+^assignment_group={"display":"Jefaturas TI","value":"5d8795f21b96b0501a9667853a4bcbb0","sys_id":"5d8795f21b96b0501a9667853a4bcbb0"}^assigned_to={{Created_1.current.u_slx_responsable_proceso}}^service_offering={"display":"Coordinación Ingreso","value":"9fcb29521bafe1107c132170f54bcb18","table":"service_offering","sys_id":"9fcb29521bafe1107c132170f54bcb18"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>097f3dd21befe1107c132170f54bcbcb</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>497f3dd21befe1107c132170f54bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=097f3dd21befe1107c132170f54bcbcb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=097f3dd21befe1107c132170f54bcbcb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Creación de Credencial</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>4</order>
+        <parent_ui_id>2ddf0290-4aaf-4a7e-b383-46c4eff8bdbd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>347f3dd21befe1107c132170f54bcbb4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>1d0f656e-df27-43b6-ab63-3037c453723b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=347f3dd21befe1107c132170f54bcbb4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>347f3dd21befe1107c132170f54bcbb4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>b87f3dd21befe1107c132170f54bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=347f3dd21befe1107c132170f54bcbb4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>347f3dd21befe1107c132170f54bcbb4</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>387f3dd21befe1107c132170f54bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Creación de Credencial
+^description=Se debe crear la credencial de nuevo colaborador, completar tarea cuando se realice entrega indicando a quien se hace entrega.
+
+
+^assignment_group={"display":"Abastecimiento y Mantenimiento","value":"726deb1b1b28741097eaea4fe54bcb29","sys_id":"726deb1b1b28741097eaea4fe54bcb29"}^assigned_to=^service_offering={"display":"Credencial","value":"b26b61521bafe1107c132170f54bcb87","table":"service_offering","sys_id":"b26b61521bafe1107c132170f54bcb87"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>347f3dd21befe1107c132170f54bcbb4</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>747f3dd21befe1107c132170f54bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=347f3dd21befe1107c132170f54bcbb4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=347f3dd21befe1107c132170f54bcbb4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Ropa de Trabajo y EPP nuevo colaborador</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>10</order>
+        <parent_ui_id>3558796b-24a8-421e-8f95-444076f9f7c1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>457f3dd21befe1107c132170f54bcbd1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>6781663e-2c8a-4bd7-8d04-2a9c498f82c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=457f3dd21befe1107c132170f54bcbd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>457f3dd21befe1107c132170f54bcbd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>c97f3dd21befe1107c132170f54bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=457f3dd21befe1107c132170f54bcbd1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>457f3dd21befe1107c132170f54bcbd1</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>497f3dd21befe1107c132170f54bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Ropa de Trabajo y EPP nuevo colaborador^assignment_group={"display":"Jefaturas TI","value":"5d8795f21b96b0501a9667853a4bcbb0","sys_id":"5d8795f21b96b0501a9667853a4bcbb0"}^assigned_to={{Created_1.current.u_slx_responsable_proceso}}^service_offering={"display":"Ropa y EPP","value":"77c9b15e1bafe1107c132170f54bcb47","table":"service_offering","sys_id":"77c9b15e1bafe1107c132170f54bcb47"}^description=Coordinar entrega de Ropa y EPP a nuevo colaborador.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>457f3dd21befe1107c132170f54bcbd1</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>857f3dd21befe1107c132170f54bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=457f3dd21befe1107c132170f54bcbd1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=457f3dd21befe1107c132170f54bcbd1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Instrucción a TI</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>5</order>
+        <parent_ui_id>2ddf0290-4aaf-4a7e-b383-46c4eff8bdbd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>707f3dd21befe1107c132170f54bcbba</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>e9cff08b-9820-455c-8141-685d68d80481</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=707f3dd21befe1107c132170f54bcbba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>707f3dd21befe1107c132170f54bcbba</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>f47f3dd21befe1107c132170f54bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=707f3dd21befe1107c132170f54bcbba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>707f3dd21befe1107c132170f54bcbba</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>747f3dd21befe1107c132170f54bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Instrucción a TI
+^description=Tarea integrada con el flujo de Requerimientos de Mesa de Servicio.
+^assignment_group={"display":"Mesa de Ayuda","value":"b55a75a21b97e010971b2170f54bcb1e","sys_id":"b55a75a21b97e010971b2170f54bcb1e"}^assigned_to=^service_offering={"display":"Proceso TI","value":"dd7be1521bafe1107c132170f54bcb04","table":"service_offering","sys_id":"dd7be1521bafe1107c132170f54bcb04"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>707f3dd21befe1107c132170f54bcbba</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>b07f3dd21befe1107c132170f54bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=707f3dd21befe1107c132170f54bcbba"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=707f3dd21befe1107c132170f54bcbba"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Coordinar traslado a central primer día</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>12</order>
+        <parent_ui_id>b79e5e2a-e39c-4982-8956-e40dfdf0a272</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>817f3dd21befe1107c132170f54bcbd7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>af7b7d3d-4f77-4942-908f-05d6f8850308</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=817f3dd21befe1107c132170f54bcbd7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>817f3dd21befe1107c132170f54bcbd7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>097f3dd21befe1107c132170f54bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=817f3dd21befe1107c132170f54bcbd7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>817f3dd21befe1107c132170f54bcbd7</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>857f3dd21befe1107c132170f54bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Coordinar traslado a central primer día^description=Llamar a colaborador para obtener datos de talla de ropa y dirección para ir a buscar a colaborador
+.^assignment_group={"display":"Jefaturas TI","value":"5d8795f21b96b0501a9667853a4bcbb0","sys_id":"5d8795f21b96b0501a9667853a4bcbb0"}^assigned_to=^service_offering={"display":"Traslado a Central","value":"16db65521bafe1107c132170f54bcb05","table":"service_offering","sys_id":"16db65521bafe1107c132170f54bcb05"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>817f3dd21befe1107c132170f54bcbd7</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>c17f3dd21befe1107c132170f54bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=817f3dd21befe1107c132170f54bcbd7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=817f3dd21befe1107c132170f54bcbd7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Llamado Nuevo Colaborador</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>2</order>
+        <parent_ui_id>2ddf0290-4aaf-4a7e-b383-46c4eff8bdbd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>b87f3dd21befe1107c132170f54bcba8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>73548028-1587-435d-a217-5d90fc2f334b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b87f3dd21befe1107c132170f54bcba8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b87f3dd21befe1107c132170f54bcba8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>307f3dd21befe1107c132170f54bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b87f3dd21befe1107c132170f54bcba8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b87f3dd21befe1107c132170f54bcba8</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>bc7f3dd21befe1107c132170f54bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Llamado Nuevo Colaborador
+^description=Control de llamado a nuevo colaborador
+^assignment_group={"display":"Selección","value":"72c33cd21bebe1107c132170f54bcbd1","sys_id":"72c33cd21bebe1107c132170f54bcbd1"}^assigned_to=^service_offering={"display":"LLamado Nuevo colaborador","value":"cc1b6d121bafe1107c132170f54bcbef","table":"service_offering","sys_id":"cc1b6d121bafe1107c132170f54bcbef"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>b87f3dd21befe1107c132170f54bcba8</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>f87f3dd21befe1107c132170f54bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b87f3dd21befe1107c132170f54bcba8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b87f3dd21befe1107c132170f54bcba8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Coordina entrega kit e inducción</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>6</order>
+        <parent_ui_id>2ddf0290-4aaf-4a7e-b383-46c4eff8bdbd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>bc7f3dd21befe1107c132170f54bcbbf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>d23909ef-2d10-404b-9e74-7827a3fe8f97</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bc7f3dd21befe1107c132170f54bcbbf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bc7f3dd21befe1107c132170f54bcbbf</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>057f3dd21befe1107c132170f54bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bc7f3dd21befe1107c132170f54bcbbf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>bc7f3dd21befe1107c132170f54bcbbf</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>817f3dd21befe1107c132170f54bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Coordina entrega kit e inducción
+^description=Enviar Kit de bienvenida, completar tarea al realizar envío.
+^assignment_group={"display":"Selección","value":"72c33cd21bebe1107c132170f54bcbd1","sys_id":"72c33cd21bebe1107c132170f54bcbd1"}^assigned_to=^service_offering={"display":"Kit e Inducción","value":"3b8be1521bafe1107c132170f54bcb0a","table":"service_offering","sys_id":"3b8be1521bafe1107c132170f54bcb0a"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>bc7f3dd21befe1107c132170f54bcbbf</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>cd7f3dd21befe1107c132170f54bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bc7f3dd21befe1107c132170f54bcbbf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bc7f3dd21befe1107c132170f54bcbbf"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Recibir a nuevo colaborador</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>7</order>
+        <parent_ui_id>2ddf0290-4aaf-4a7e-b383-46c4eff8bdbd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>c97f3dd21befe1107c132170f54bcbc5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>84f1b590-f35f-4ce3-99e9-d608ed6e9a20</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c97f3dd21befe1107c132170f54bcbc5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c97f3dd21befe1107c132170f54bcbc5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>417f3dd21befe1107c132170f54bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c97f3dd21befe1107c132170f54bcbc5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>c97f3dd21befe1107c132170f54bcbc5</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>cd7f3dd21befe1107c132170f54bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Recibir a nuevo colaborador
+
+^description=Chequeo simple para identificar lista de cosas por hacer.
+^assignment_group={"display":"Jefaturas TI","value":"5d8795f21b96b0501a9667853a4bcbb0","sys_id":"5d8795f21b96b0501a9667853a4bcbb0"}^assigned_to={{Created_1.current.u_slx_responsable_proceso}}^service_offering={"display":"Recibir nuevo colaborador","value":"44abe1521bafe1107c132170f54bcb4e","table":"service_offering","sys_id":"44abe1521bafe1107c132170f54bcb4e"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>c97f3dd21befe1107c132170f54bcbc5</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:19</sys_created_on>
+        <sys_id>0d7f3dd21befe1107c132170f54bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c97f3dd21befe1107c132170f54bcbc5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c97f3dd21befe1107c132170f54bcbc5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Instrucciones Primer día</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <order>3</order>
+        <parent_ui_id>2ddf0290-4aaf-4a7e-b383-46c4eff8bdbd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>f47f3dd21befe1107c132170f54bcbae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>7c5fe66b-6397-410d-9124-c5100cae42cd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f47f3dd21befe1107c132170f54bcbae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f47f3dd21befe1107c132170f54bcbae</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>7c7f3dd21befe1107c132170f54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <value>x_lbsa_gop_tarea_gop</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f47f3dd21befe1107c132170f54bcbae"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f47f3dd21befe1107c132170f54bcbae</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>f87f3dd21befe1107c132170f54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Instrucciones Primer día^description=Preparar y entregar instrucciones del primer día
+
+^assignment_group={"display":"Selección","value":"72c33cd21bebe1107c132170f54bcbd1","sys_id":"72c33cd21bebe1107c132170f54bcbd1"}^assigned_to=^service_offering={"display":"Instructivo Primer día","value":"9d5b21521bafe1107c132170f54bcb7b","table":"service_offering","sys_id":"9d5b21521bafe1107c132170f54bcb7b"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>f47f3dd21befe1107c132170f54bcbae</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>387f3dd21befe1107c132170f54bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f47f3dd21befe1107c132170f54bcbae"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f47f3dd21befe1107c132170f54bcbae"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=207f3dd21befe1107c132170f54bcb3f^sys_idNOT IN387f3dd21befe1107c132170f54bcb9d,787f3dd21befe1107c132170f54bcb99,b47f3dd21befe1107c132170f54bcba1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">838c411a1b2fe1107c132170f54bcb24</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>387f3dd21befe1107c132170f54bcb9d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>3558796b-24a8-421e-8f95-444076f9f7c1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=387f3dd21befe1107c132170f54bcb9d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>387f3dd21befe1107c132170f54bcb9d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>b87f3dd21befe1107c132170f54bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <value>Centrales y Proyectos</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=387f3dd21befe1107c132170f54bcb9d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>387f3dd21befe1107c132170f54bcb9d</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>387f3dd21befe1107c132170f54bcba0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.u_slx_lugar}}=2^NQ{{Created_1.current.u_slx_lugar}}=3</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>387f3dd21befe1107c132170f54bcb9d</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>747f3dd21befe1107c132170f54bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=387f3dd21befe1107c132170f54bcb9d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=387f3dd21befe1107c132170f54bcb9d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f28c011a1b2fe1107c132170f54bcbf5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>787f3dd21befe1107c132170f54bcb99</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>2ddf0290-4aaf-4a7e-b383-46c4eff8bdbd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=787f3dd21befe1107c132170f54bcb99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>787f3dd21befe1107c132170f54bcb99</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>3c7f3dd21befe1107c132170f54bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <value>Casa Matriz - Proyecto - Centrales</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=787f3dd21befe1107c132170f54bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>787f3dd21befe1107c132170f54bcb99</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>b87f3dd21befe1107c132170f54bcb9c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.u_slx_lugar}}=1^NQ{{Created_1.current.u_slx_lugar}}=2^NQ{{Created_1.current.u_slx_lugar}}=3</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>787f3dd21befe1107c132170f54bcb99</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>f47f3dd21befe1107c132170f54bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=787f3dd21befe1107c132170f54bcb99"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=787f3dd21befe1107c132170f54bcb99"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4b8c411a1b2fe1107c132170f54bcb2d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SLX - Tareas GOP Plazo Fijo">207f3dd21befe1107c132170f54bcb3f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>b47f3dd21befe1107c132170f54bcba1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <ui_id>b79e5e2a-e39c-4982-8956-e40dfdf0a272</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b47f3dd21befe1107c132170f54bcba1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b47f3dd21befe1107c132170f54bcba1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>f07f3dd21befe1107c132170f54bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <value>Centrales</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b47f3dd21befe1107c132170f54bcba1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b47f3dd21befe1107c132170f54bcba1</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:51:52</sys_created_on>
+        <sys_id>c5400a161befe1107c132170f54bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:51:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.u_slx_lugar}}=2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b47f3dd21befe1107c132170f54bcba1</id>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>707f3dd21befe1107c132170f54bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b47f3dd21befe1107c132170f54bcba1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b47f3dd21befe1107c132170f54bcba1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_207f3dd21befe1107c132170f54bcb3f^sys_idNOT IN7c7f3dd21befe1107c132170f54bcb96,b87f3dd21befe1107c132170f54bcb93"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_207f3dd21befe1107c132170f54bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>7c7f3dd21befe1107c132170f54bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_207f3dd21befe1107c132170f54bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-22 20:48:18</sys_created_on>
+        <sys_id>b87f3dd21befe1107c132170f54bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-22 20:48:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=207f3dd21befe1107c132170f54bcb3f"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=207f3dd21befe1107c132170f54bcb3f"/>
+</record_update>

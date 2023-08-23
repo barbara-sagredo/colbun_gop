@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_jefe_directo" label="Nombre jefe Directo" language="en" table="x_lbsa_gop_req_gop">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_jefe_directo</element>
+            <help/>
+            <hint/>
+            <label>Nombre jefe Directo</label>
+            <language>en</language>
+            <name>x_lbsa_gop_req_gop</name>
+            <plural>Nombre jefe Directos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2023-06-19 20:46:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nombre jefe Directo</sys_name>
+            <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+            <sys_update_name>sys_documentation_x_lbsa_gop_req_gop_u_slx_jefe_directo_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2023-06-19 20:46:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

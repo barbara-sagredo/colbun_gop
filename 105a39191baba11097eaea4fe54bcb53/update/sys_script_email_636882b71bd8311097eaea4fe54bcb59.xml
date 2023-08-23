@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>slx_gop_fecha_colaborador</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var gr = new GlideRecord("x_lbsa_gop_req_gop");
+    gr.addQuery('sys_id', current.sys_id);
+    gr.query();
+    while (gr.next()) {
+
+        template.print(gr.variables.u_slx_fecha_recibir_colaborador);
+        //         template.print(gr.number + ';');
+    }
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>slx.er</sys_created_by>
+        <sys_created_on>2023-08-03 20:05:51</sys_created_on>
+        <sys_id>636882b71bd8311097eaea4fe54bcb59</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>slx_gop_fecha_colaborador</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_script_email_636882b71bd8311097eaea4fe54bcb59</sys_update_name>
+        <sys_updated_by>slx.er</sys_updated_by>
+        <sys_updated_on>2023-08-03 20:12:31</sys_updated_on>
+    </sys_script_email>
+</record_update>

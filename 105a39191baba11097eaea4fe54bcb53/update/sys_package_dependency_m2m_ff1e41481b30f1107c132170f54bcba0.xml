@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">0fd186a51b012010bb2611f18c4bcb88</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:44:57</sys_created_on>
+        <sys_id>ff1e41481b30f1107c132170f54bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:44:57</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

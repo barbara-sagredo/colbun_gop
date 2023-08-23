@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Credencial</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_lbsa_gop.slx.service.off.credencial</name>
+        <read_roles/>
+        <suffix>slx.service.off.credencial</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-06-29 19:25:18</sys_created_on>
+        <sys_id>9d9fe5a41b7b211097eaea4fe54bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_lbsa_gop.slx.service.off.credencial</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_properties_9d9fe5a41b7b211097eaea4fe54bcba0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-06-29 19:25:18</sys_updated_on>
+        <type>string</type>
+        <value>b26b61521bafe1107c132170f54bcb87</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d9fe5a41b7b211097eaea4fe54bcba0"/>
+</record_update>

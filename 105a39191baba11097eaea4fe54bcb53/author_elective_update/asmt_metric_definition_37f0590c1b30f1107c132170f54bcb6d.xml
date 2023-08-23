@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>PRO 169 - Inspecciones y Observaciones</display>
+        <metric display_value="Bienestar">19d0150c1b30f1107c132170f54bcbf2</metric>
+        <normalization_input>430</normalization_input>
+        <order>430</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:57:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37f0590c1b30f1107c132170f54bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRO 169 - Inspecciones y Observaciones</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>asmt_metric_definition_37f0590c1b30f1107c132170f54bcb6d</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:57:30</sys_updated_on>
+        <unselected_image/>
+        <value>430</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=37f0590c1b30f1107c132170f54bcb6d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GOP">105a39191baba11097eaea4fe54bcb53</application>
+        <file_path/>
+        <instance_id>0747afc9dbc26b844d2bac44d496191b</instance_id>
+        <instance_name>colbuntest</instance_name>
+        <name>asmt_metric_definition_37f0590c1b30f1107c132170f54bcb6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>PRO 169 - Inspecciones y Observaciones</display><metric display_value="Bienestar">19d0150c1b30f1107c132170f54bcbf2</metric><normalization_input>430</normalization_input><order>430</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-08-16 20:57:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37f0590c1b30f1107c132170f54bcb6d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PRO 169 - Inspecciones y Observaciones</sys_name><sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package><sys_policy/><sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope><sys_update_name>asmt_metric_definition_37f0590c1b30f1107c132170f54bcb6d</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-08-16 20:57:30</sys_updated_on><unselected_image/><value>430</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=37f0590c1b30f1107c132170f54bcb6d"/></record_update>]]></payload>
+        <payload_hash>1113227170</payload_hash>
+        <record_name>PRO 169 - Inspecciones y Observaciones</record_name>
+        <reverted_from/>
+        <source>9c5a39191baba11097eaea4fe54bcb54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 20:57:30</sys_created_on>
+        <sys_id>3bf0590c1b30f1107c132170f54bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0023a5f10000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 20:57:30</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>33f0590cb430f1101ceafb483815d07e</update_guid>
+        <update_guid_history>33f0590cb430f1101ceafb483815d07e:1113227170</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PRO 169 - Inspecciones y Observaciones">ea5419001b70f1107c132170f54bcb86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-16 21:12:10</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>a23ae61cec664fbaaa0c662344de2dd1</sys_id>
+        <sys_metadata>37f0590c1b30f1107c132170f54bcb6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRO 169 - Inspecciones y Observaciones</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_scope_delete display_value="">143209119df54f65821216fc4cc628a1</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_37f0590c1b30f1107c132170f54bcb6d</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_37f0590c1b30f1107c132170f54bcb6d">3bf0590c1b30f1107c132170f54bcb7e</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-16 21:12:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

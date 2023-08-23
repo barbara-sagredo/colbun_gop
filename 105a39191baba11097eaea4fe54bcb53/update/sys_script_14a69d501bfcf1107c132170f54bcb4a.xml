@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_lbsa_gop_cursos_colbun</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Elimina curso</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord("asmt_metric");
+    gr.addQuery("reference_table", "x_lbsa_gop_cursos_colbun");
+    gr.addQuery("u_slx_tipo_curso", current.u_slx_tipo);
+    gr.query();
+    if (gr.next()) {
+
+
+
+        var gt = new GlideRecord("asmt_metric_definition");
+        gt.addQuery("metric", gr.sys_id);
+		gt.addQuery("display",current.name);
+        gt.query();
+        if (gt.next()) {
+			gt.deleteRecord();
+        }
+
+
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-08-17 16:03:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14a69d501bfcf1107c132170f54bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Elimina curso</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_script_14a69d501bfcf1107c132170f54bcb4a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-08-17 16:03:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=14a69d501bfcf1107c132170f54bcb4a"/>
+</record_update>

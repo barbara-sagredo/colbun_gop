@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_lbsa_gop.slx_actualizar_gop</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>slx_actualizar_gop</name>
+        <script><![CDATA[var slx_actualizar_gop = Class.create();
+slx_actualizar_gop.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+cancelarGop: function() {
+        var gop = this.getParameter('sysparm_gop');
+	
+        var gr = new GlideRecord("x_lbsa_gop_req_gop");
+        gr.addQuery("sys_id", gop);
+		gr.addQuery("active", true);
+        gr.query();
+        if (gr.next()) {
+			gr.state=7;
+			gr.update();
+			return '200';
+        }else
+			{
+				return 404;
+			}
+
+    },
+    type: 'slx_actualizar_gop'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-07-24 15:05:38</sys_created_on>
+        <sys_id>3703a96c1b98f9507c132170f54bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>slx_actualizar_gop</sys_name>
+        <sys_package display_value="GOP" source="x_lbsa_gop">105a39191baba11097eaea4fe54bcb53</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GOP">105a39191baba11097eaea4fe54bcb53</sys_scope>
+        <sys_update_name>sys_script_include_3703a96c1b98f9507c132170f54bcb59</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-07-24 15:05:38</sys_updated_on>
+    </sys_script_include>
+</record_update>
